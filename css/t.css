@@ -1,0 +1,26 @@
+.blog-pg.single .post .content .terms ol li,
+.blog-pg.single .post .content .policy ol li {
+    list-style: decimal;
+}
+
+.bactxt .contact-header-text {
+    font-size: 20vw;
+}
+
+footer .item li #subscribe-form {
+    margin-top: 35px;
+}
+
+footer .item li .subscribe div {
+    font-size: small;
+    color: firebrick;
+    margin: 5px 0 0 5px;
+}
+
+footer .item li.useful-link {
+    margin-bottom: 15px;
+}
+
+footer .item li.useful-link a {
+    font-size: smaller;
+}

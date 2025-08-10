@@ -1,0 +1,18 @@
+{
+  "componentChunkName": "component---src-pages-index-jsx",
+  "path": "/",
+  "result": {
+    "data": {
+      "site": {
+        "siteMetadata": {
+          "title": "Ritesh's New Portfolio",
+          "description": "Welcome to my updated portfolio site. Explore my latest work!",
+          "author": "@ritesh_handle"
+        }
+      }
+    },
+    "pageContext": {}
+  },
+  "staticQueryHashes": [],
+  "slicesMap": {}
+}
