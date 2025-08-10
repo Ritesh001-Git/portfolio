@@ -6387,7 +6387,7 @@
                 }, "Ritesh Kumar Swain")), i.createElement(ze, null, i.createElement("p", {
                     className: "words chars splitting wow txt",
                     "data-splitting": !0
-                }, "Triet is a platform engineer with over 15 years of experience in developing web and mobile applications.", i.createElement("br", null), "As a technical lead, he facilitates the adoption of Agile frameworks like Scrum, and is proud of his ability to synthesize and communicate ideas effectively to technical and non-technical folks alike.", i.createElement("br", null), "Triet always enjoys a novel challenge.")), i.createElement("div", {
+                }, "Passionate Software Developer from India, skilled in Cloud, Flutter, and DSA", i.createElement("br", null), "Innovative solutions with a focus on performance and scalability.", i.createElement("br", null), "Always eager to learn and tackle new challenges in technology.")), i.createElement("div", {
                     className: "ftbox mt-30"
                 }, i.createElement("ul", null, Ge.qT.map((e => i.createElement("li", {
                     key: e.id,
