@@ -6298,7 +6298,7 @@
                         "data-splitting": !0
                     }, e.title))))))))))))
                 },
-                Fe = JSON.parse('[{"id":1,"icon":"/images/logos/lpu-logo.png","title":"Bachelor of Technology - CSE","content":"Lovely Professional University, Punjab, India â€” Since Aug 2023 | CGPA: 8.5"},{"id":2,"icon":"/images/logos/kv-logo.png","title":"Higher Secondary - PCM","content":"Kendriya Vidyalaya Pushp Vihar, New Delhi, India â€” Apr 2022 - Mar 2023 | Percentage: 86.7%"},{"id":3,"icon":"/images/logos/kv-logo.png","title":"Matriculation","content":"Kendriya Vidyalaya Pushp Vihar, New Delhi, India â€” Apr 2021 - Mar 2022 | Percentage: 90.8%"}]');
+                Fe = JSON.parse('[{"id":1,"icon":"/images/logos/lpu-logo.png","title":"Bachelor of Technology-CSE","content":"Lovely Professional University, Paghwara, Punjab, India” Since Aug 2023 | CGPA: 8.5"},{"id":2,"icon":"/images/logos/kv-logo.png","title":"Higher Secondary - PCM","content":"Kendriya Vidyalaya Pushp Vihar, New Delhi, India” Apr 2022 - Mar 2023 | Percentage: 86.7%"},{"id":3,"icon":"/images/logos/kv-logo.png","title":"Matriculation","content":"Kendriya Vidyalaya Pushp Vihar, New Delhi, India” Apr 2021 - Mar 2022 | Percentage: 90.8%"}]');
 
             var Be = e => {
                     let {
