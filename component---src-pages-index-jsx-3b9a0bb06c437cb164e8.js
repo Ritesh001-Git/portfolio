@@ -6332,7 +6332,7 @@
                         className: "line bottom right"
                     }))
                 },
-                Ge = JSON.parse('{"zx":"/images/intro/12976804_1121024851262160_4036613030479327751_o.jpg","sP":"/images/intro/triet-800x708.jpg","lb":"/images/intro/13131216_1137773816253930_7102194663945036401_o.jpg","qT":[{"id":1,"icon":"cloud","name":{"first":"Innovative","second":"Solutions"},"wowDelay":".3s"},{"id":2,"icon":"mobile","name":{"first":"Scalable","second":"Development"},"wowDelay":".5s"},{"id":3,"icon":"code","name":{"first":"Continuous","second":"Learning"},"wowDelay":".8s"}]}');
+                Ge = JSON.parse('{"zx":"/images/intro/12976804_1121024851262160_4036613030479327751_o.jpg","sP":"/images/intro/triet-800x708.jpg","lb":"/images/intro/13131216_1137773816253930_7102194663945036401_o.jpg","qT":[{"id":1,"icon":"cloud","name":{"first":"Innovative","second":"Solutions"},"wowDelay":".3s"},{"id":2,"icon":"cloud","name":{"first":"Scalable","second":"Development"},"wowDelay":".5s"},{"id":3,"icon":"cloud","name":{"first":"Continuous","second":"Learning"},"wowDelay":".8s"}]}');
             var He = () => i.createElement("div", {
                     className: "about section-padding"
                 }, i.createElement("div", {
