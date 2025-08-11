@@ -6268,7 +6268,7 @@
                         style: {
                             display: "none"
                         }
-                    }, " "), i.createElement("div", {
+                    }, "Â "), i.createElement("div", {
                         className: "container"
                     }, i.createElement("div", {
                         className: "row"
@@ -6298,7 +6298,8 @@
                         "data-splitting": !0
                     }, e.title))))))))))))
                 },
-                Fe = JSON.parse('[{"id":1,"icon":"pe-7s-browser","title":"Web Development","content":"Elegant, scalable, and easy to use responsive mobile-desktop applications built using modern technologies."},{"id":2,"icon":"pe-7s-phone","title":"Mobile Application","content":"Optimized native applications, powered by scalable back-ends, tailored for your business requirements."},{"id":3,"icon":"pe-7s-science","title":"Blockchain Development","content":"Useable blockchain applications. We\'ve engineered and deployed some of the industries first consumer blockchain applications."},{"id":4,"icon":"pe-7s-photo","title":"Graphic Design","content":"Translate your business objectives into a user friendly experience that will set your application apart from the competition and showcase your unique offering."}]');
+                Fe = JSON.parse('[{"id":1,"icon":"/images/logos/lpu-logo.png","title":"Bachelor of Technology - CSE","content":"Lovely Professional University, Punjab, India â€” Since Aug 2023 | CGPA: 8.5"},{"id":2,"icon":"/images/logos/kv-logo.png","title":"Higher Secondary - PCM","content":"Kendriya Vidyalaya Pushp Vihar, New Delhi, India â€” Apr 2022 - Mar 2023 | Percentage: 86.7%"},{"id":3,"icon":"/images/logos/kv-logo.png","title":"Matriculation","content":"Kendriya Vidyalaya Pushp Vihar, New Delhi, India â€” Apr 2021 - Mar 2022 | Percentage: 90.8%"}]');
+
             var Be = e => {
                     let {
                         serviceMB50: t
@@ -6316,9 +6317,9 @@
                     }, i.createElement("h6", {
                         className: "wow fadeIn",
                         "data-wow-delay": ".5s"
-                    }, "Services"), i.createElement("h3", {
+                    }, "Education"), i.createElement("h3", {
                         className: "wow color-font"
-                    }, "I provide everything you need for your perfect application.")))), i.createElement("div", {
+                    }, "Learning today to innovate tomorrow")))), i.createElement("div", {
                         className: "row"
                     }, Fe.slice(0, 3).map(((e, n) => i.createElement("div", {
                         className: "col-lg-4 wow fadeInLeft",
@@ -6398,7 +6399,7 @@
                 }), i.createElement("h6", null, e.name.first, " ", i.createElement("br", null), " ", e.name.second), i.createElement("div", {
                     className: "dots"
                 }, i.createElement("span", null), i.createElement("span", null), i.createElement("span", null)))))))))))),
-                We = JSON.parse('{"zx":"/images/01.jpg","sP":"/images/02.jpg","oN":{"g":15,"U":"years of experience"}}');
+                We = JSON.parse('{"zx":"/images/01.jpg","sP":"/images/02.jpg","oN":{"g":"NOW","U":"OR NEVER"}}');
             var Ve = () => (i.useEffect((() => {
                 setTimeout((() => {
                     var e, t;
@@ -6456,10 +6457,10 @@
             }, i.createElement(ze, null, i.createElement("h4", {
                 className: "wow words chars splitting",
                 "data-splitting": !0
-            }, "#OpenToWork")), i.createElement(ze, null, i.createElement("p", null, "Need a Platform Engineer?"), i.createElement("p", null, "I provide freelance services in software development, system architecture, code optimization. With extensive experience in various technologies, I can deliver high-quality, scalable solutions tailored to your business needs. ", i.createElement("br", null)), i.createElement("p", {
+            }, "#FunFactAboutMe")), i.createElement(ze, null, i.createElement("p", null, "Code Polyglot – I’ve built projects in C++, Python, Java, Dart,  sand JavaScript (and counting…)."), i.createElement("p", null, " Explorer – My first trip was to Ladakh with my two best friends, where I hiked through mountain trails and visited remote monasteries.", i.createElement("br", null)), i.createElement("p", {
                 className: "wow txt words chars splitting",
                 "data-splitting": !0
-            }, "Let's collaborate to bring your projects to life.")), i.createElement(o.N_, {
+            }, "Lifelong Learner – Currently diving deep into Cloud Compuating and AI.")), i.createElement(o.N_, {
                 to: "/contact",
                 className: "butn bord curve mt-40 wow fadeInUp",
                 "data-wow-delay": ".8s"
@@ -6905,7 +6906,7 @@
                     className: "author-details"
                 }, "Founder, Glean"))))), i.createElement("div", {
                     className: "item"
-                }, i.createElement("p", null, "Triet was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish."), i.createElement("div", {
+                }, i.createElement("p", null, "Triet was a real pleasure to work with and we look forward to working with him again. Heâ€™s definitely the kind of developer you can trust with a project from start to finish."), i.createElement("div", {
                     className: "info"
                 }, i.createElement("div", {
                     className: "img"
@@ -6963,7 +6964,7 @@
                 }, i.createElement(ze, null, i.createElement("h6", {
                     className: "wow words chars splitting",
                     "data-splitting": !0
-                }, "Let’s Talk"), i.createElement("h2", {
+                }, "Letâ€™s Talk"), i.createElement("h2", {
                     className: "wow words chars splitting",
                     "data-splitting": !0
                 }, "about your ", i.createElement("br", null), " ", i.createElement("b", {
@@ -7832,7 +7833,7 @@
         },
         7452: function(e) {
             "use strict";
-            e.exports = "\t\n\v\f\r                　\u2028\u2029\ufeff"
+            e.exports = "\t\n\v\f\r Â áš€â€€â€â€‚â€ƒâ€„â€…â€†â€‡â€ˆâ€‰â€Šâ€¯âŸã€€\u2028\u2029\ufeff"
         },
         7476: function(e, t, n) {
             "use strict";
@@ -7852,7 +7853,7 @@
             (o.versions || (o.versions = [])).push({
                 version: "3.40.0",
                 mode: i ? "pure" : "global",
-                copyright: "© 2014-2025 Denis Pushkarev (zloirock.ru)",
+                copyright: "Â© 2014-2025 Denis Pushkarev (zloirock.ru)",
                 license: "https://github.com/zloirock/core-js/blob/v3.40.0/LICENSE",
                 source: "https://github.com/zloirock/core-js"
             })
@@ -8889,14 +8890,14 @@
                     "+": "plus",
                     ".": "dot",
                     "&": "and",
-                    "đ": "d",
-                    "ħ": "h",
-                    "ı": "i",
-                    "ĸ": "k",
-                    "ŀ": "l",
-                    "ł": "l",
-                    "ß": "ss",
-                    "ŧ": "t"
+                    "Ä‘": "d",
+                    "Ä§": "h",
+                    "Ä±": "i",
+                    "Ä¸": "k",
+                    "Å€": "l",
+                    "Å‚": "l",
+                    "ÃŸ": "ss",
+                    "Å§": "t"
                 },
                 TITLE_TO_SLUG_CHARS_REGEX = RegExp("[" + Object.keys(TITLE_TO_SLUG_REPLACEMENTS).join("") + "]", "g"),
                 TITLE_TO_SLUG_RANGE_REGEX = /[^a-z0-9]/g,
