@@ -164,31 +164,31 @@
                 }, o.createElement("a", {
                     target: "_blank",
                     rel: "noreferrer",
-                    href: "https://www.linkedin.com/in/triet-trinh/"
+                    href: "https://www.linkedin.com/in/ritesh-kumar-swain/"
                 }, o.createElement("i", {
                     className: "fab fa-linkedin"
                 })), o.createElement("a", {
                     target: "_blank",
                     rel: "noreferrer",
-                    href: "https://github.com/trinhminhtriet"
+                    href: "https://github.com/Ritesh001-Git"
                 }, o.createElement("i", {
                     className: "fab fa-github"
                 })), o.createElement("a", {
                     target: "_blank",
                     rel: "noreferrer",
-                    href: "https://twitter.com/trinhminhtriet"
+                    href: "https://twitter.com/Ritesh_1973"
                 }, o.createElement("i", {
                     className: "fab fa-x-twitter"
                 })), o.createElement("a", {
                     target: "_blank",
                     rel: "noreferrer",
-                    href: "https://www.facebook.com/trinhminhtriet"
+                    href: "https://leetcode.com/u/ritesh2005/"
                 }, o.createElement("i", {
-                    className: "fab fa-facebook-f"
+                    className: "fas fa-code"
                 })), o.createElement("a", {
                     target: "_blank",
                     rel: "noreferrer",
-                    href: "https://www.instagram.com/triettrinh/"
+                    href: "https://www.instagram.com/ritesh.swain.35/"
                 }, o.createElement("i", {
                     className: "fab fa-instagram"
                 }))), o.createElement("div", {
