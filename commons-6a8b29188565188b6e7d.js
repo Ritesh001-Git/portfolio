@@ -81,7 +81,7 @@
                     className: "icon pe-7s-map-marker"
                 }), o.createElement("div", {
                     className: "cont"
-                }, o.createElement("h6", null, "Trinh Minh Triet"), o.createElement("p", null, c.C5.hl, ", ", c.C5.kc, ", ", c.C5.$T))), o.createElement("li", null, o.createElement("span", {
+                }, o.createElement("h6", null, "Ritesh Kumar Swain"), o.createElement("p", null, c.C5.hl, ", ", c.C5.kc, ", ", c.C5.$T))), o.createElement("li", null, o.createElement("span", {
                     className: "icon pe-7s-mail"
                 }), o.createElement("div", {
                     className: "cont"
@@ -1979,7 +1979,7 @@
             e.exports = r(2799)
         },
         5572: function(e) {
-            e.exports = JSON.parse('{"DD":"Let\'s talk","Rp":"contact@riteshswain.com","lZ":"+84 (0) 966.854.642","C5":{"hl":"15 Le Thanh Ton, Ben Nghe Ward, District 1","kc":"Ho Chi Minh City","$T":"Vietnam"}}')
+            e.exports = JSON.parse('{"DD":"Let\'s talk","Rp":"riteshswain1973@gmail.com","lZ":"+91 7325815720","C5":{"hl":"Baruna, Raj Kanika, Kendrapara","kc":"Odisha, 754227","$T":"India"}}')
         },
         6326: function(e, t, r) {
             r.d(t, {
