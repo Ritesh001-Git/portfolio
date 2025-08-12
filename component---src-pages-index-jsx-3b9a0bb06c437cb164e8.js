@@ -6668,11 +6668,11 @@
                     className: "wow cimgio",
                     "data-delay": "500"
                 }), i.createElement("img", {
-                    src: "/images/portfolio/demuze.png",
+                    src: "/images/portfolio/dashboard.png",
                     alt: "De Muze"
                 }))), i.createElement("div", {
                     className: "cont"
-                }, i.createElement("h6", null, "Web Application"), i.createElement("h4", null, "De Muze")))), i.createElement(Oe, {
+                }, i.createElement("h6", null, "Web Application"), i.createElement("h4", null, "Portfolio")))), i.createElement(Oe, {
                     className: "swiper-slide"
                 }, i.createElement("div", {
                     className: "content"
