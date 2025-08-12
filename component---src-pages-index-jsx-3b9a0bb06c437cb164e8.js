@@ -6821,9 +6821,9 @@
                 }, i.createElement("h6", {
                     className: "wow fadeIn",
                     "data-wow-delay": ".5s"
-                }, "Development"), i.createElement("h3", {
+                }, "Click"), i.createElement("h3", {
                     className: "wow mb-20 color-font"
-                }, "Stack"), i.createElement("p", null, "A suite of cutting-edge tools and technologies."))), i.createElement("div", {
+                }, "Deploy"), i.createElement("p", null, "And hope for the best."))), i.createElement("div", {
                     className: "col-lg-8"
                 }, i.createElement(qe.Es, r, n)))))
             },
