@@ -6302,7 +6302,7 @@
                     "data-splitting": !0
                 }, e.title))))))))))))
             },
-                Fe = JSON.parse('[{"id":1,"icon":"/images/logos/lpu-logo.png","title":"Bachelor of Technology-CSE","content":"Lovely Professional University, Paghwara, Punjab, India” Since Aug 2023 | CGPA: 8.5"},{"id":2,"icon":"/images/logos/kv-logo.png","title":"Higher Secondary - PCM","content":"Kendriya Vidyalaya Pushp Vihar, New Delhi, India” Apr 2022 - Mar 2023 | Percentage: 86.7%"},{"id":3,"icon":"/images/logos/kv-logo.png","title":"Matriculation","content":"Kendriya Vidyalaya Pushp Vihar, New Delhi, India” Apr 2021 - Mar 2022 | Percentage: 90.8%"}]');
+            Fe = JSON.parse('[{"id":1,"icon":"images/lpu-logo.png","title":"Bachelor of Technology - CSE","content":"Lovely Professional University, Phagwara, Punjab, India — Since Aug 2023 | CGPA: 8.5"},{"id":2,"icon":"images/kv-logo.png","title":"Higher Secondary - PCM","content":"Kendriya Vidyalaya Pushp Vihar, New Delhi, India — Apr 2022 - Mar 2023 | Percentage: 86.7%"},{"id":3,"icon":"images/kv-logo.png","title":"Matriculation","content":"Kendriya Vidyalaya Pushp Vihar, New Delhi, India — Apr 2021 - Mar 2022 | Percentage: 90.8%"}]');
 
             var Be = e => {
                 let {
@@ -6979,18 +6979,21 @@
                 }, i.createElement(ze, null, i.createElement("h6", {
                     className: "wow words chars splitting",
                     "data-splitting": !0
-                }, "Letâ€™s Talk"), i.createElement("h2", {
+                }, "Would You"), i.createElement("h2", {
                     className: "wow words chars splitting",
                     "data-splitting": !0
-                }, "about your ", i.createElement("br", null), " ", i.createElement("b", {
+                }, "Like My", i.createElement("br", null), "", i.createElement("b", {
                     className: "back-color"
-                }, "next project"), ".")))), i.createElement("div", {
+                }, "CV ?"), ".")))), i.createElement("div", {
                     className: "col-md-4 col-lg-3 valign"
-                }, i.createElement(o.N_, {
-                    to: "/contact/",
+                }, i.createElement("a", {
+                    href: "https://drive.google.com/file/d/15pLuvLCq3M-Mi6zDZS26vbCgPApMRKhm/view?usp=sharing",
+                    target: "_blank",
+                    rel: "noopener noreferrer",
                     className: "butn bord curve wow fadeInUp",
                     "data-wow-delay": ".5s"
-                }, i.createElement("span", null, "Get in touch"))))))
+                }, i.createElement("span", null, "Download CV"))
+                ))))
             };
             const Je = () => i.createElement(i.Fragment, null, i.createElement("title", null, "Ritesh Kumar Swain (Ritesh Swain) - Software Engineer"));
             var Qe = () => {
