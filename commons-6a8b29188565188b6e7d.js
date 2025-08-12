@@ -116,16 +116,8 @@
                         email: ""
                     },
                     onSubmit: async e => {
-                        const t = JSON.stringify({
-                            email: e.email
-                        });
-                        await n.A.post("https://api.trinhminhtriet.com/subscribe", t, {
-                            headers: {
-                                "content-type": "application/json"
-                            }
-                        }).catch((e => console.log(e.message))) && (r.current.innerText = "Your email has been successfully subscribed!", e.email = "", setTimeout((() => {
-                            r.current.innerText = ""
-                        }), 3e3))
+                        const email = e.email;
+    window.location.href = `mailto:riteshswain1973@gmail.com?subject=New Subscription&body=Email: ${email}`;
                     }
                 }, (e => {
                     let {
