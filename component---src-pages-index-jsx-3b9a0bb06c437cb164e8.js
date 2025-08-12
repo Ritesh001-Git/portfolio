@@ -6939,7 +6939,7 @@
                         }, i.createElement("strong", { className: "bold-heading" }, "Soft Skills & Strengths"),
                             i.createElement("p", null),
                             "Soft Skills: Problem-Solving, Communication, Project Management, Adaptability",
-                            i.createElement("br", null),
+                            i.createElement("br", { style: { lineHeight: "1.8" } }),
                             "Strengths: Fast Learner, Collaborative Team Player, Attention to Detail, Creativity in Problem-Solving", i.createElement("div", {
                                 className: "info"
                             }, i.createElement("div", {
