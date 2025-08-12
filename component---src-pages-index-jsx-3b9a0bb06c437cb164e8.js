@@ -6854,7 +6854,7 @@
                 }, "undefined" != typeof window && i.createElement(Ye.A, {
                     channel: "vimeo",
                     isOpen: e,
-                    videoId: "127203262",
+                    videoId: "",
                     onClose: () => t(!1)
                 }), i.createElement("a", {
                     className: "vid",
@@ -6894,7 +6894,7 @@
                 }, i.createElement("div", null,
                     i.createElement("strong", { className: "bold-heading" }, "Programming Languages & Frameworks"),
                     i.createElement("p", { className: "bold-heading" }), "Languages: C, C++, Java, Python, Dart, JavaScript",
-                    i.createElement("br", { className: "bold-heading" }), "Frameworks: Spring Boot, Flask, Flutter, HTML, CSS"), i.createElement("div", {
+                    i.createElement("br", { className: "bold-heading" }), "Frameworks: Spring Boot, Flutter, HTML, CSS"), i.createElement("div", {
                         className: "info"
                     }, i.createElement("div", {
                         className: "img"
