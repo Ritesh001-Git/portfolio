@@ -6668,7 +6668,7 @@
                     className: "wow cimgio",
                     "data-delay": "500"
                 }), i.createElement("img", {
-                    src: "/images/portfolio/dashboard.png",
+                    src: "/images/portfolio/portfolio.png",
                     alt: "De Muze"
                 }))), i.createElement("div", {
                     className: "cont"
@@ -6684,11 +6684,11 @@
                     className: "wow cimgio",
                     "data-delay": "500"
                 }), i.createElement("img", {
-                    src: "/images/portfolio/bibliomundi.png",
+                    src: "/images/portfolio/image.png",
                     alt: "Bibliomundi"
                 }))), i.createElement("div", {
                     className: "cont"
-                }, i.createElement("h6", null, "Web Application"), i.createElement("h4", null, "Bibliomundi")))), i.createElement(Oe, {
+                }, i.createElement("h6", null, "Serverless Web App/Cloud Architecture"), i.createElement("h4", null, "Serverless Image Resizer")))), i.createElement(Oe, {
                     className: "swiper-slide"
                 }, i.createElement("div", {
                     className: "content"
@@ -6700,11 +6700,11 @@
                     className: "wow cimgio",
                     "data-delay": "500"
                 }), i.createElement("img", {
-                    src: "/images/portfolio/myparcel.png",
+                    src: "/images/portfolio/sleepbot.png",
                     alt: "MyParcel"
                 }))), i.createElement("div", {
                     className: "cont"
-                }, i.createElement("h6", null, "Web Application"), i.createElement("h4", null, "MyParcel")))), i.createElement(Oe, {
+                }, i.createElement("h6", null, "AI/Ml"), i.createElement("h4", null, "SleepBot")))), i.createElement(Oe, {
                     className: "swiper-slide"
                 }, i.createElement("div", {
                     className: "content"
@@ -6716,11 +6716,11 @@
                     className: "wow cimgio",
                     "data-delay": "500"
                 }), i.createElement("img", {
-                    src: "/images/portfolio/plus-msg.png",
+                    src: "/images/portfolio/movie.png",
                     alt: "Plus Messege Portal"
                 }))), i.createElement("div", {
                     className: "cont"
-                }, i.createElement("h6", null, "Web Application"), i.createElement("h4", null, "Plus Messege Portal")))), i.createElement(Oe, {
+                }, i.createElement("h6", null, "Web Application"), i.createElement("h4", null, "Movie Booking")))), i.createElement(Oe, {
                     className: "swiper-slide"
                 }, i.createElement("div", {
                     className: "content"
@@ -6732,11 +6732,11 @@
                     className: "wow cimgio",
                     "data-delay": "500"
                 }), i.createElement("img", {
-                    src: "/images/portfolio/auportal.png",
+                    src: "/images/portfolio/task.png",
                     alt: "AU Portal"
                 }))), i.createElement("div", {
                     className: "cont"
-                }, i.createElement("h6", null, "Web Application"), i.createElement("h4", null, "AU Portal"))))), i.createElement("div", {
+                }, i.createElement("h6", null, "Azure Cloud-Native"), i.createElement("h4", null, "TaskHub"))))), i.createElement("div", {
                     ref: t,
                     className: "swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer"
                 }, i.createElement("i", {
