@@ -3743,7 +3743,7 @@
             }
         },
         7669: function(e) {
-            e.exports = JSON.parse('{"Mx":"/images/logo-t-light.png","EW":"/images/logo-t-dark.png","Cv":{"O":2008,"Q":"All rights reserved."}}')
+            e.exports = JSON.parse('{"Mx":"/images/logo-t-light.png","EW":"/images/logo-t-dark.png","Cv":{"O":2025,"Q":"All rights reserved."}}')
         }
     }
 ]);
