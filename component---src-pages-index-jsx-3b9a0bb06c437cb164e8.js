@@ -6738,15 +6738,47 @@
                     className: "cont"
                 }, i.createElement("h6", null, "Azure Cloud-Native"), i.createElement("h4", null, "TaskHub"))))), i.createElement("div", {
                     ref: t,
-                    className: "swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer"
+                    className: "swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer",
+                    style: {
+                        background: "transparent",
+                        borderRadius: "50%",
+                        border: "2px solid rgba(255,255,255,0.5)",
+                        width: "50px",
+                        height: "50px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        transition: "all 0.3s ease"
+                    }
                 }, i.createElement("i", {
-                    className: "ion-ios-arrow-right"
-                })), i.createElement("div", {
+                    className: "fas fa-chevron-right",
+                    style: {
+                        color: "#ff4081", // vibrant pink, change if you want
+                        fontSize: "20px"
+                    }
+                })),
+                i.createElement("div", {
                     ref: e,
-                    className: "swiper-button-prev swiper-nav-ctrl prev-ctrl cursor-pointer"
+                    className: "swiper-button-prev swiper-nav-ctrl prev-ctrl cursor-pointer",
+                    style: {
+                        background: "transparent",
+                        borderRadius: "50%",
+                        border: "2px solid rgba(255,255,255,0.5)",
+                        width: "50px",
+                        height: "50px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        transition: "all 0.3s ease"
+                    }
                 }, i.createElement("i", {
-                    className: "ion-ios-arrow-left"
-                }))))))))
+                    className: "fas fa-chevron-left",
+                    style: {
+                        color: "#ff4081", // vibrant pink, change if you want
+                        fontSize: "20px"
+                    }
+                }))
+                ))))))
             },
                 qe = n(8345);
             var Ue = e => {
