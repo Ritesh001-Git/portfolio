@@ -6302,8 +6302,17 @@
                     "data-splitting": !0
                 }, e.title))))))))))))
             },
-            Fe = JSON.parse('[{"id":1,"icon":"images/lpu-logo.png","title":"Bachelor of Technology - CSE","content":"Lovely Professional University, Phagwara, Punjab, India — Since Aug 2023 | CGPA: 8.5"},{"id":2,"icon":"images/kv-logo.png","title":"Higher Secondary - PCM","content":"Kendriya Vidyalaya Pushp Vihar, New Delhi, India — Apr 2022 - Mar 2023 | Percentage: 86.7%"},{"id":3,"icon":"images/kv-logo.png","title":"Matriculation","content":"Kendriya Vidyalaya Pushp Vihar, New Delhi, India — Apr 2021 - Mar 2022 | Percentage: 90.8%"}]');
+            Fe = JSON.parse('[{"id":1,"icon":"/images/lpu-logo.png","title":"Bachelor of Technology - CSE","content":"Lovely Professional University, Phagwara, Punjab, India — Since Aug 2023 | CGPA: 8.5"},{"id":2,"icon":"/images/kv-logo.png","title":"Higher Secondary - PCM","content":"Kendriya Vidyalaya Pushp Vihar, New Delhi, India — Apr 2022 - Mar 2023 | Percentage: 86.7%"},{"id":3,"icon":"/images/kv-logo.png","title":"Matriculation","content":"Kendriya Vidyalaya Pushp Vihar, New Delhi, India — Apr 2020 - Mar 2021 | Percentage: 90.8%"}]');
 
+            // Only update title and content — keep HTML image intact
+            Fe.forEach((edu, index) => {
+                const titleEl = document.getElementById(`edu-title-${index+1}`);
+                const descEl = document.getElementById(`edu-desc-${index+1}`);
+            
+                if (titleEl) titleEl.textContent = edu.title;
+                if (descEl) descEl.textContent = edu.content;
+            });
+            
             var Be = e => {
                 let {
                     serviceMB50: t
@@ -6331,8 +6340,11 @@
                     key: e.id
                 }, i.createElement("div", {
                     className: "item-box no-curve " + (t && n + 1 != Fe.length - 1 ? "mb-50" : "")
-                }, i.createElement("span", {
-                    className: `icon color-font ${e.icon}`
+                }, i.createElement("img", {
+                    src: e.icon,
+                    alt: e.title + " logo",
+                    className: "edu-logo", // you can style this in CSS
+                    style: { width: "100px", height: "100px", objectFit: "contain" }
                 }), i.createElement("h6", null, e.title), i.createElement("p", null, e.content))))))), i.createElement("div", {
                     className: "line bottom right"
                 }))
@@ -6757,27 +6769,27 @@
                         fontSize: "20px"
                     }
                 })),
-                i.createElement("div", {
-                    ref: e,
-                    className: "swiper-button-prev swiper-nav-ctrl prev-ctrl cursor-pointer",
-                    style: {
-                        background: "transparent",
-                        borderRadius: "50%",
-                        border: "2px solid rgba(255,255,255,0.5)",
-                        width: "50px",
-                        height: "50px",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        transition: "all 0.3s ease"
-                    }
-                }, i.createElement("i", {
-                    className: "fas fa-chevron-left",
-                    style: {
-                        color: "#ff4081", // vibrant pink, change if you want
-                        fontSize: "20px"
-                    }
-                }))
+                    i.createElement("div", {
+                        ref: e,
+                        className: "swiper-button-prev swiper-nav-ctrl prev-ctrl cursor-pointer",
+                        style: {
+                            background: "transparent",
+                            borderRadius: "50%",
+                            border: "2px solid rgba(255,255,255,0.5)",
+                            width: "50px",
+                            height: "50px",
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            transition: "all 0.3s ease"
+                        }
+                    }, i.createElement("i", {
+                        className: "fas fa-chevron-left",
+                        style: {
+                            color: "#ff4081", // vibrant pink, change if you want
+                            fontSize: "20px"
+                        }
+                    }))
                 ))))))
             },
                 qe = n(8345);
