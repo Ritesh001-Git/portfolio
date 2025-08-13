@@ -77,119 +77,123 @@
                     className: "item md-mb50"
                 }, o.createElement("div", {
                     className: "title"
-                }, o.createElement("h5", null, "Contact")), o.createElement("ul", null, o.createElement("li", null, o.createElement("span", {
-                    className: "icon pe-7s-map-marker"
-                }), o.createElement("div", {
-                    className: "cont"
-                }, o.createElement("h6", null, "Ritesh Kumar Swain"), o.createElement("p", null, c.C5.hl, ", ", c.C5.kc, ", ", c.C5.$T))), o.createElement("li", null, o.createElement("span", {
-                    className: "icon pe-7s-mail"
-                }), o.createElement("div", {
-                    className: "cont"
-                }, o.createElement("h6", null, "Email"), o.createElement("p", null, c.Rp))), o.createElement("li", null, o.createElement("span", {
-                    className: "icon pe-7s-call"
-                }), o.createElement("div", {
-                    className: "cont"
-                }, o.createElement("h6", null, "Phone"), o.createElement("p", null, c.lZ)))))), o.createElement("div", {
-                    className: "col-lg-4"
-                }, o.createElement("div", {
-                    className: "item md-mb50"
-                }, o.createElement("div", {
-                    className: "title"
-                }, o.createElement("h5", null, "Links")), o.createElement("ul", null, o.createElement("li", {
-                    className: "useful-link"
-                }, o.createElement(a.N_, {
-                    to: "/"
-                }, "Home")), o.createElement("li", {
-                    className: "useful-link"
-                }, o.createElement(a.N_, {
-                    to: "/contact/"
-                }, "Contact")), o.createElement("li", {
-                    className: "useful-link"
-                }, o.createElement(a.N_, {
-                    to: "/terms/"
-                }, "Terms of Use")), o.createElement("li", {
-                    className: "useful-link"
-                }, o.createElement(a.N_, {
-                    to: "/privacy-policy/"
-                }, "Privacy Policy")), o.createElement("li", null, o.createElement(i.l1, {
-                    initialValues: {
-                        email: ""
-                    },
-                    onSubmit: async e => {
-                        const email = e.email;
-                        window.location.href = `mailto:riteshswain1973@gmail.com?subject=New Subscription&body=Email: ${email}`;
-                    }
-                }, (e => {
-                    let {
-                        errors: t,
-                        touched: n
-                    } = e;
-                    return o.createElement(i.lV, {
-                        id: "subscribe-form"
-                    }, o.createElement("div", {
-                        className: "subscribe"
-                    }, o.createElement(i.D0, {
-                        validate: u,
-                        id: "form_email",
-                        type: "email",
-                        name: "email",
-                        placeholder: "Email",
-                        required: "required"
-                    }), t.email && n.email && o.createElement("div", null, t.email), 
-                    o.createElement("button", {
-                        type: "submit",
-                        className: "subs"
-                    }, 
-                        o.createElement("i", { className: "fa-solid fa-rocket" }) // Font Awesome icon
-                    )
-                    ), o.createElement("div", {
-                        className: "messages",
-                        ref: r
-                    }))
-                })))))), o.createElement("div", {
-                    className: "col-lg-4"
-                }, o.createElement("div", {
-                    className: "item"
-                }, o.createElement("div", {
-                    className: "logo"
-                }, o.createElement("img", {
-                    src: s.Mx,
-                    alt: ""
-                })), o.createElement("div", {
-                    className: "social"
-                }, o.createElement("a", {
-                    target: "_blank",
-                    rel: "noreferrer",
-                    href: "https://www.linkedin.com/in/ritesh-kumar-swain/"
-                }, o.createElement("i", {
-                    className: "fab fa-linkedin"
-                })), o.createElement("a", {
-                    target: "_blank",
-                    rel: "noreferrer",
-                    href: "https://github.com/Ritesh001-Git"
-                }, o.createElement("i", {
-                    className: "fab fa-github"
-                })), o.createElement("a", {
-                    target: "_blank",
-                    rel: "noreferrer",
-                    href: "https://twitter.com/Ritesh_1973"
-                }, o.createElement("i", {
-                    className: "fab fa-x-twitter"
-                })), o.createElement("a", {
-                    target: "_blank",
-                    rel: "noreferrer",
-                    href: "https://leetcode.com/u/ritesh2005/"
-                }, o.createElement("i", {
-                    className: "fas fa-code"
-                })), o.createElement("a", {
-                    target: "_blank",
-                    rel: "noreferrer",
-                    href: "https://www.instagram.com/ritesh.swain.35/"
-                }, o.createElement("i", {
-                    className: "fab fa-instagram"
-                }))), o.createElement("div", {
-                    className: "copy-right"
-                }, o.createElement("p", null, "© ", s.Cv.O, "-", (new Date).getFullYear(), " . ", s.Cv.Q)))))))
+                }, o.createElement("h5", null, "Contact")), o.createElement("ul", null,
+                    o.createElement("li", null,
+                        o.createElement("span", { className: "icon" },
+                            o.createElement("i", { className: "fa-solid fa-location-dot" }) // Map marker
+                        ), o.createElement("div", {
+                            className: "cont"
+                        }, o.createElement("h6", null, "Ritesh Kumar Swain"), o.createElement("p", null, c.C5.hl, ", ", c.C5.kc, ", ", c.C5.$T))), o.createElement("li", null,
+                            o.createElement("span", { className: "icon" },
+                                o.createElement("i", { className: "fa-solid fa-envelope" }) // Email
+                            ), o.createElement("div", {
+                                className: "cont"
+                            }, o.createElement("h6", null, "Email"), o.createElement("p", null, c.Rp))), o.createElement("li", null,
+                                o.createElement("span", { className: "icon" },
+                                    o.createElement("i", { className: "fa-solid fa-phone" }) // Phone
+                                ), o.createElement("div", {
+                                    className: "cont"
+                                }, o.createElement("h6", null, "Phone"), o.createElement("p", null, c.lZ)))))), o.createElement("div", {
+                                    className: "col-lg-4"
+                                }, o.createElement("div", {
+                                    className: "item md-mb50"
+                                }, o.createElement("div", {
+                                    className: "title"
+                                }, o.createElement("h5", null, "Links")), o.createElement("ul", null, o.createElement("li", {
+                                    className: "useful-link"
+                                }, o.createElement(a.N_, {
+                                    to: "/"
+                                }, "Home")), o.createElement("li", {
+                                    className: "useful-link"
+                                }, o.createElement(a.N_, {
+                                    to: "/contact/"
+                                }, "Contact")), o.createElement("li", {
+                                    className: "useful-link"
+                                }, o.createElement(a.N_, {
+                                    to: "/terms/"
+                                }, "Terms of Use")), o.createElement("li", {
+                                    className: "useful-link"
+                                }, o.createElement(a.N_, {
+                                    to: "/privacy-policy/"
+                                }, "Privacy Policy")), o.createElement("li", null, o.createElement(i.l1, {
+                                    initialValues: {
+                                        email: ""
+                                    },
+                                    onSubmit: async e => {
+                                        const email = e.email;
+                                        window.location.href = `mailto:riteshswain1973@gmail.com?subject=New Subscription&body=Email: ${email}`;
+                                    }
+                                }, (e => {
+                                    let {
+                                        errors: t,
+                                        touched: n
+                                    } = e;
+                                    return o.createElement(i.lV, {
+                                        id: "subscribe-form"
+                                    }, o.createElement("div", {
+                                        className: "subscribe"
+                                    }, o.createElement(i.D0, {
+                                        validate: u,
+                                        id: "form_email",
+                                        type: "email",
+                                        name: "email",
+                                        placeholder: "Email",
+                                        required: "required"
+                                    }), t.email && n.email && o.createElement("div", null, t.email),
+                                        o.createElement("button", {
+                                            type: "submit",
+                                            className: "subs"
+                                        },
+                                            o.createElement("i", { className: "fa-solid fa-rocket" }) // Font Awesome icon
+                                        )
+                                    ), o.createElement("div", {
+                                        className: "messages",
+                                        ref: r
+                                    }))
+                                })))))), o.createElement("div", {
+                                    className: "col-lg-4"
+                                }, o.createElement("div", {
+                                    className: "item"
+                                }, o.createElement("div", {
+                                    className: "logo"
+                                }, o.createElement("img", {
+                                    src: s.Mx,
+                                    alt: ""
+                                })), o.createElement("div", {
+                                    className: "social"
+                                }, o.createElement("a", {
+                                    target: "_blank",
+                                    rel: "noreferrer",
+                                    href: "https://www.linkedin.com/in/ritesh-kumar-swain/"
+                                }, o.createElement("i", {
+                                    className: "fab fa-linkedin"
+                                })), o.createElement("a", {
+                                    target: "_blank",
+                                    rel: "noreferrer",
+                                    href: "https://github.com/Ritesh001-Git"
+                                }, o.createElement("i", {
+                                    className: "fab fa-github"
+                                })), o.createElement("a", {
+                                    target: "_blank",
+                                    rel: "noreferrer",
+                                    href: "https://twitter.com/Ritesh_1973"
+                                }, o.createElement("i", {
+                                    className: "fab fa-x-twitter"
+                                })), o.createElement("a", {
+                                    target: "_blank",
+                                    rel: "noreferrer",
+                                    href: "https://leetcode.com/u/ritesh2005/"
+                                }, o.createElement("i", {
+                                    className: "fas fa-code"
+                                })), o.createElement("a", {
+                                    target: "_blank",
+                                    rel: "noreferrer",
+                                    href: "https://www.instagram.com/ritesh.swain.35/"
+                                }, o.createElement("i", {
+                                    className: "fab fa-instagram"
+                                }))), o.createElement("div", {
+                                    className: "copy-right"
+                                }, o.createElement("p", null, "© ", s.Cv.O, "-", (new Date).getFullYear(), " . ", s.Cv.Q)))))))
             }
         },
         1083: function (e, t, r) {
