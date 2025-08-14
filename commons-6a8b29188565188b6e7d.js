@@ -106,7 +106,7 @@
                                 }, "Home")), o.createElement("li", {
                                     className: "useful-link"
                                 }, o.createElement(a.N_, {
-                                    to: "/contact/"
+                                    to: "/contact.html"
                                 }, "Contact")), o.createElement("li", {
                                     className: "useful-link"
                                 }, o.createElement(a.N_, {
@@ -1974,7 +1974,7 @@
                     className: "nav-item"
                 }, n.createElement(o.N_, {
                     className: "nav-link",
-                    to: "/contact/"
+                    to: "/contact.html"
                 }, "Contact"))))))
             }
         },

@@ -6193,7 +6193,7 @@
                 }, i.createElement("h1", {
                     className: "color-font"
                 }, e.title), (null == e ? void 0 : e.content) && i.createElement("p", null, e.content), i.createElement(o.N_, {
-                    to: "/contact/",
+                    to: "/contact.html",
                     className: "butn bord curve mt-30"
                 }, i.createElement("span", null, "Get in touch"))))))))))), i.createElement("div", {
                     className: "setone setwo"
@@ -6477,7 +6477,7 @@
                 className: "wow txt words chars splitting",
                 "data-splitting": !0
             }, "Lifelong Learner – Currently diving deep into Cloud Compuating and AI.")), i.createElement(o.N_, {
-                to: "/contact",
+                to: "/contact.html",
                 className: "butn bord curve mt-40 wow fadeInUp",
                 "data-wow-delay": ".8s"
             }, i.createElement("span", null, "Get in touch")), i.createElement("br", null))))), i.createElement("div", {
