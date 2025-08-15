@@ -63,8 +63,8 @@
         }
 
         .navbar.scrolled {
-            padding: 15px 0;
-            background: rgba(26, 37, 47, 0.95);
+            background: #1a1c20;
+            border-bottom: 1px solid #2a2c30;
         }
 
         .nav-container {
@@ -130,10 +130,25 @@
         .nav-links a.active::after {
             width: 100%;
         }
+        
+        .hamburger-menu {
+            display: none;
+            cursor: pointer;
+            z-index: 1005;
+        }
+
+        .hamburger-menu span {
+            display: block;
+            width: 25px;
+            height: 3px;
+            margin: 5px 0;
+            background-color: #fff;
+            transition: all 0.3s ease-in-out;
+        }
 
         /* Main Content Area */
         .main-content {
-            flex: 1; /* This makes the main content area take up available space */
+            flex: 1;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -175,7 +190,6 @@
                 opacity: 0;
                 transform: translateY(30px);
             }
-
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -185,7 +199,36 @@
         /* Mobile Responsiveness */
         @media (max-width: 768px) {
             .nav-links {
-                display: none;
+                position: fixed;
+                top: 0;
+                right: -100%;
+                height: 100vh;
+                width: 250px;
+                background-color: rgba(26, 28, 32, 0.98);
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 40px;
+                transition: right 0.4s ease-in-out;
+                z-index: 1004;
+            }
+
+            .nav-links.open {
+                right: 0;
+            }
+
+            .hamburger-menu {
+                display: block;
+            }
+            
+            .hamburger-menu.active span:nth-child(1) {
+                transform: rotate(45deg) translate(5px, 5px);
+            }
+            .hamburger-menu.active span:nth-child(2) {
+                opacity: 0;
+            }
+            .hamburger-menu.active span:nth-child(3) {
+                transform: rotate(-45deg) translate(7px, -7px);
             }
 
             .main-content h1 {
@@ -201,11 +244,10 @@
             .main-content h1 {
                 font-size: 2.5rem;
             }
-        }
-
-        .navbar.scrolled {
-            background: #1a1c20;
-            border-bottom: 1px solid #2a2c30;
+            .main-content, .legal-section {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
         }
     </style>
 </head>
@@ -221,11 +263,16 @@
                 <span class="logo-text">riteshswain.com</span>
             </a>
 
-            <ul class="nav-links">
+            <ul class="nav-links" id="navLinks">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="dsa-blog.html" class="active">DSA Blog</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
+            <div class="hamburger-menu" id="hamburgerMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     </nav>
 
@@ -319,6 +366,30 @@
             } else {
                 navbar.classList.remove('scrolled');
             }
+        });
+
+        // Responsive navigation
+        document.addEventListener('DOMContentLoaded', () => {
+            const hamburgerMenu = document.getElementById('hamburgerMenu');
+            const navLinks = document.getElementById('navLinks');
+            const body = document.body;
+
+            hamburgerMenu.addEventListener('click', (e) => {
+                e.stopPropagation();
+                hamburgerMenu.classList.toggle('active');
+                navLinks.classList.toggle('open');
+            });
+
+            body.addEventListener('click', () => {
+                if (navLinks.classList.contains('open')) {
+                    hamburgerMenu.classList.remove('active');
+                    navLinks.classList.remove('open');
+                }
+            });
+
+            navLinks.addEventListener('click', (e) => {
+                e.stopPropagation();
+            });
         });
     </script>
 </body>
