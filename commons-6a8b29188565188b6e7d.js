@@ -106,15 +106,15 @@
                                 }, "Home")), o.createElement("li", {
                                     className: "useful-link"
                                 }, o.createElement(a.N_, {
-                                    to: "/contact.html"
+                                    to: "contact.html"
                                 }, "Contact")), o.createElement("li", {
                                     className: "useful-link"
                                 }, o.createElement(a.N_, {
-                                    to: "/terms/"
+                                    to: "term.html"
                                 }, "Terms of Use")), o.createElement("li", {
                                     className: "useful-link"
                                 }, o.createElement(a.N_, {
-                                    to: "/privacy-policy/"
+                                    to: "privacy_policy.html"
                                 }, "Privacy Policy")), o.createElement("li", null, o.createElement(i.l1, {
                                     initialValues: {
                                         email: ""
@@ -1967,14 +1967,14 @@
                     className: "nav-item"
                 }, n.createElement("a", {
                     className: "nav-link",
-                    href: "https://www.linkedin.com/in/ritesh-kumar-swain/",
+                    href: "dsa-blog.html",
                     target: "_blank",
                     rel: "noreferrer"
-                }, "Tools")), n.createElement("li", {
+                }, "DSA Blog")), n.createElement("li", {
                     className: "nav-item"
                 }, n.createElement(o.N_, {
                     className: "nav-link",
-                    to: "/contact.html"
+                    to: "contact.html"
                 }, "Contact"))))))
             }
         },

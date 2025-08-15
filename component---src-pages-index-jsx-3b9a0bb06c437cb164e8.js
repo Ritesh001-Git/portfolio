@@ -6193,7 +6193,7 @@
                 }, i.createElement("h1", {
                     className: "color-font"
                 }, e.title), (null == e ? void 0 : e.content) && i.createElement("p", null, e.content), i.createElement(o.N_, {
-                    to: "/contact.html",
+                    to: "contact.html",
                     className: "butn bord curve mt-30"
                 }, i.createElement("span", null, "Get in touch"))))))))))), i.createElement("div", {
                     className: "setone setwo"
@@ -6349,7 +6349,7 @@
                     className: "line bottom right"
                 }))
             },
-                Ge = JSON.parse('{"zx":"/images/intro/12976804_1121024851262160_4036613030479327751_o.jpg","sP":"/images/intro/triet-800x708.jpg","lb":"/images/intro/13131216_1137773816253930_7102194663945036401_o.jpg","qT":[{"id":1,"icon":"cloud","name":{"first":"Innovative","second":"Solutions"},"wowDelay":".3s"},{"id":2,"icon":"cloud","name":{"first":"Scalable","second":"Development"},"wowDelay":".5s"},{"id":3,"icon":"cloud","name":{"first":"Continuous","second":"Learning"},"wowDelay":".8s"}]}');
+                Ge = JSON.parse('{"zx":"/images/intro/12976804_1121024851262160_4036613030479327751_o.jpg","sP":"/images/intro/triet-800x708.jpg","lb":"/images/intro/13131216_1137773816253930_7102194663945036401_o.jpg","qT":[{"id":1,"icon":"cloud","name":{"first":"Innovative","second":"Solutions"},"wowDelay":".3s"},{"id":2,"icon":"cloud","name":{"first":"High","second":"Throughput"},"wowDelay":".5s"},{"id":3,"icon":"cloud","name":{"first":"Ongoing","second":"Upskilling"},"wowDelay":".8s"}]}');
             var He = () => i.createElement("div", {
                 className: "about section-padding"
             }, i.createElement("div", {
@@ -6404,7 +6404,7 @@
             }, "Ritesh Kumar Swain")), i.createElement(ze, null, i.createElement("p", {
                 className: "words chars splitting wow txt",
                 "data-splitting": !0
-            }, "Passionate Software Developer from India, skilled in Cloud, Flutter, and DSA. Innovative solutions with a focus on performance and scalability.", i.createElement("br", null), "Always eager to learn and tackle new challenges in technology.")), i.createElement("div", {
+            }, "Cloud, AI, Flutter, and DSA enthusiast from India. I translate complex problems into elegant, scalable software and continuously upskill to stay ahead of tech trends. ", i.createElement("br", null), "Passionate about performance, maintainability, and user centric design.")), i.createElement("div", {
                 className: "ftbox mt-30"
             }, i.createElement("ul", null, Ge.qT.map((e => i.createElement("li", {
                 key: e.id,
@@ -6477,7 +6477,7 @@
                 className: "wow txt words chars splitting",
                 "data-splitting": !0
             }, "Lifelong Learner – Currently diving deep into Cloud Compuating and AI.")), i.createElement(o.N_, {
-                to: "/contact.html",
+                to: "contact.html",
                 className: "butn bord curve mt-40 wow fadeInUp",
                 "data-wow-delay": ".8s"
             }, i.createElement("span", null, "Get in touch")), i.createElement("br", null))))), i.createElement("div", {

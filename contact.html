@@ -18,6 +18,8 @@
         }
 
         body {
+            margin: 0;
+            padding: 0;
             font-family: 'Poppins', sans-serif;
             background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #222831 100%);
             color: #fff;
@@ -74,7 +76,6 @@
             justify-content: space-between;
             align-items: center;
             height: 60px;
-            /* fixed height */
         }
 
         .logo {
@@ -574,7 +575,6 @@
     <div class="gradient-bg"></div>
 
     <!-- Navigation -->
-    <!-- Navigation -->
     <nav class="navbar" id="navbar">
         <div class="nav-container">
             <a href="index.html" class="logo">
@@ -584,7 +584,7 @@
 
             <ul class="nav-links">
                 <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="tools.html">Tools</a></li>
+                <li><a href="dsa-blog.html">DSA Blog</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
@@ -715,10 +715,10 @@
             <div style="flex: 1; min-width: 250px;">
                 <h3 style="margin-bottom: 20px;">Links</h3>
                 <ul style="list-style: none; padding: 0; margin-bottom: 20px; line-height: 40px;">
-                    <li><a href="/index.html" style="color: #bbb; text-decoration: none;">Home</a></li>
-                    <li><a href="/contact.html" style="color: #bbb; text-decoration: none;">Contact</a></li>
-                    <li><a href="/terms/" style="color: #bbb; text-decoration: none;">Terms of Use</a></li>
-                    <li><a href="/privacy-policy/" style="color: #bbb; text-decoration: none;">Privacy Policy</a></li>
+                    <li><a href="index.html" style="color: #bbb; text-decoration: none;">Home</a></li>
+                    <li><a href="contact.html" style="color: #bbb; text-decoration: none;">Contact</a></li>
+                    <li><a href="term.html" style="color: #bbb; text-decoration: none;">Terms of Use</a></li>
+                    <li><a href="privacy_policy.html" style="color: #bbb; text-decoration: none;">Privacy Policy</a></li>
                 </ul>
             </div>
 
@@ -777,71 +777,85 @@
             observer.observe(el);
         });
 
-        // Form validation and submission
         document.getElementById('contactForm').addEventListener('submit', function (e) {
-            e.preventDefault();
+    e.preventDefault();
 
-            const formGroups = document.querySelectorAll('.form-group');
-            let isValid = true;
+    const formGroups = document.querySelectorAll('.form-group');
+    let isValid = true;
 
-            // Reset previous errors
-            formGroups.forEach(group => {
-                group.classList.remove('error');
-            });
+    // Reset previous errors
+    formGroups.forEach(group => group.classList.remove('error'));
 
-            // Validate name
-            const name = document.getElementById('name');
-            if (!name.value.trim()) {
-                name.closest('.form-group').classList.add('error');
-                isValid = false;
-            }
+    // Validate name
+    const name = document.getElementById('name');
+    if (!name.value.trim()) {
+        name.closest('.form-group').classList.add('error');
+        isValid = false;
+    }
 
-            // Validate phone
-            const phone = document.getElementById('phone');
-            const phoneRegex = /^[\+]?[0-9\s\-\(\)]{10,}$/;
-            if (!phone.value.trim() || !phoneRegex.test(phone.value)) {
-                phone.closest('.form-group').classList.add('error');
-                isValid = false;
-            }
+    // Validate phone
+    const phone = document.getElementById('phone');
+    const phoneRegex = /^[\+]?[0-9\s\-\(\)]{10,}$/;
+    if (!phone.value.trim() || !phoneRegex.test(phone.value)) {
+        phone.closest('.form-group').classList.add('error');
+        isValid = false;
+    }
 
-            // Validate email
-            const email = document.getElementById('email');
-            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-            if (!email.value.trim() || !emailRegex.test(email.value)) {
-                email.closest('.form-group').classList.add('error');
-                isValid = false;
-            }
+    // Validate email
+    const email = document.getElementById('email');
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!email.value.trim() || !emailRegex.test(email.value)) {
+        email.closest('.form-group').classList.add('error');
+        isValid = false;
+    }
 
-            // Validate message
-            const message = document.getElementById('message');
-            if (!message.value.trim()) {
-                message.closest('.form-group').classList.add('error');
-                isValid = false;
-            }
+    // Validate message
+    const message = document.getElementById('message');
+    if (!message.value.trim()) {
+        message.closest('.form-group').classList.add('error');
+        isValid = false;
+    }
 
-            if (isValid) {
-                // Simulate form submission
-                const submitBtn = document.querySelector('.submit-btn');
-                const successMessage = document.getElementById('successMessage');
+    if (isValid) {
+        const submitBtn = document.querySelector('.submit-btn');
+        const successMessage = document.getElementById('successMessage');
 
-                submitBtn.textContent = 'Sending...';
-                submitBtn.disabled = true;
+        submitBtn.textContent = 'Sending...';
+        submitBtn.disabled = true;
 
+        // Send data to Formspree
+        fetch("https://formspree.io/f/mblkbyvj", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json"
+            },
+            body: JSON.stringify({
+                name: name.value,
+                phone: phone.value,
+                email: email.value,
+                message: message.value
+            })
+        })
+        .then(response => {
+            if (response.ok) {
+                successMessage.style.display = 'block';
+                document.getElementById('contactForm').reset();
                 setTimeout(() => {
-                    successMessage.style.display = 'block';
-                    submitBtn.textContent = 'Submit';
-                    submitBtn.disabled = false;
-
-                    // Reset form
-                    document.getElementById('contactForm').reset();
-
-                    // Hide success message after 5 seconds
-                    setTimeout(() => {
-                        successMessage.style.display = 'none';
-                    }, 5000);
-                }, 1500);
+                    successMessage.style.display = 'none';
+                }, 5000);
+            } else {
+                alert("There was an error sending your message.");
             }
+        })
+        .catch(() => alert("Network error. Please try again later."))
+        .finally(() => {
+            submitBtn.textContent = 'Submit';
+            submitBtn.disabled = false;
         });
+    }
+});
+
 
         // Smooth scrolling for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
