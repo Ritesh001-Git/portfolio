@@ -343,6 +343,38 @@
         .category-header:hover .category-icon {
             transform: scale(1.1) rotate(5deg);
         }
+        .category-details h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: #fff;
+        }
+
+        .category-count {
+            font-size: 0.9rem;
+            color: #95a5a6;
+        }
+
+        .category-toggle {
+            font-size: 24px;
+            color: #3498db;
+            transition: transform 0.3s ease;
+        }
+
+        .category-toggle.active {
+            transform: rotate(180deg);
+        }
+
+        .category-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease, padding 0.4s ease;
+        }
+
+        .category-content.active {
+            max-height: 2000px;
+            padding: 0 30px 30px;
+        }
     </style>
 </head>
 <body>
