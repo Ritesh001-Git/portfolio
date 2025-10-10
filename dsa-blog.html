@@ -617,6 +617,28 @@
             overflow-x: auto;
             position: relative;
         }
+        .code-block::before {
+            content: attr(data-language);
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-size: 0.75rem;
+            color: #6c757d;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .code-block pre {
+            margin: 0;
+            color: #c9d1d9;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+
+        .code-block code {
+            color: #c9d1d9;
+        }
     </style>
 </head>
 <body>
