@@ -1197,7 +1197,7 @@
     </main>
 
     <!-- Question Detail Modals -->
-    
+
     <!-- Two Sum Modal -->
     <div id="twoSum" class="modal">
         <div class="modal-content">
@@ -1210,11 +1210,12 @@
                 <div class="problem-description">
                     <h3>Problem Description</h3>
                     <p>
-                        Given an array of integers <code>nums</code> and an integer <code>target</code>, 
+                        Given an array of integers <code>nums</code> and an integer <code>target</code>,
                         return indices of the two numbers such that they add up to <code>target</code>.
                     </p>
                     <p>
-                        You may assume that each input would have exactly one solution, and you may not use the same element twice.
+                        You may assume that each input would have exactly one solution, and you may not use the same
+                        element twice.
                         You can return the answer in any order.
                     </p>
                     <pre>
@@ -1324,6 +1325,58 @@ Output: [0,1]
  * @param {number} target
  * @return {number[]}
  */</span>
+ <span class="keyword">var</span> <span class="function">twoSum</span> = <span class="keyword">function</span>(nums, target) {
+    <span class="keyword">const</span> numMap = <span class="keyword">new</span> <span class="type">Map</span>();
+    
+    <span class="keyword">for</span> (<span class="keyword">let</span> i = <span class="number">0</span>; i &lt; nums.length; i++) {
+        <span class="keyword">const</span> complement = target - nums[i];
+        
+        <span class="keyword">if</span> (numMap.has(complement)) {
+            <span class="keyword">return</span> [numMap.get(complement), i];
+        }
+        
+        numMap.set(nums[i], i);
+    }
+    
+    <span class="keyword">return</span> [];
+};</code></pre>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="code-section">
+                    <h3>Complexity Analysis</h3>
+                    <p><strong>Time Complexity:</strong> O(n) - We traverse the list containing n elements only once.
+                        Each lookup in the hash table costs only O(1) time.</p>
+                    <p><strong>Space Complexity:</strong> O(n) - The extra space required depends on the number of items
+                        stored in the hash table, which stores at most n elements.</p>
+                </div>
+
+                <div class="code-section">
+                    <h3>Approach</h3>
+                    <p>We use a hash map to store the numbers we've seen so far along with their indices. For each
+                        number, we calculate its complement (target - current number) and check if it exists in the hash
+                        map. If it does, we've found our answer. Otherwise, we add the current number to the hash map
+                        and continue.</p>
+                </div>
+
+                <div class="code-section">
+                    <h3>External Links</h3>
+                    <div class="links-section">
+                        <a href="https://leetcode.com/problems/two-sum/" target="_blank" class="link-button">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span>View on LeetCode</span>
+                        </a>
+                        <a href="YOUR_GITHUB_LINK_HERE" target="_blank" class="link-button">
+                            <i class="fab fa-github"></i>
+                            <span>View on GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
