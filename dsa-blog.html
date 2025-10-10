@@ -1195,6 +1195,135 @@
 
         </div>
     </main>
+
+    <!-- Question Detail Modals -->
+    
+    <!-- Two Sum Modal -->
+    <div id="twoSum" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close-modal" onclick="closeModal('twoSum')">&times;</span>
+                <h2>Two Sum</h2>
+                <span class="difficulty-badge difficulty-easy">Easy</span>
+            </div>
+            <div class="modal-body">
+                <div class="problem-description">
+                    <h3>Problem Description</h3>
+                    <p>
+                        Given an array of integers <code>nums</code> and an integer <code>target</code>, 
+                        return indices of the two numbers such that they add up to <code>target</code>.
+                    </p>
+                    <p>
+                        You may assume that each input would have exactly one solution, and you may not use the same element twice.
+                        You can return the answer in any order.
+                    </p>
+                    <pre>
+<strong>Example 1:</strong>
+Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+
+<strong>Example 2:</strong>
+Input: nums = [3,2,4], target = 6
+Output: [1,2]
+
+<strong>Example 3:</strong>
+Input: nums = [3,3], target = 6
+Output: [0,1]
+                    </pre>
+                </div>
+
+                <div class="code-section">
+                    <h3>Solution</h3>
+                    <div class="language-tabs">
+                        <div class="language-tab active" onclick="switchLanguage('cpp')">
+                            <i class="fas fa-code"></i> C++
+                        </div>
+                        <div class="language-tab" onclick="switchLanguage('java')">
+                            <i class="fab fa-java"></i> Java
+                        </div>
+                        <div class="language-tab" onclick="switchLanguage('python')">
+                            <i class="fab fa-python"></i> Python
+                        </div>
+                        <div class="language-tab" onclick="switchLanguage('javascript')">
+                            <i class="fab fa-js"></i> JavaScript
+                        </div>
+                    </div>
+
+                    <!-- C++ Code -->
+                    <div class="code-content active" id="cpp">
+                        <div class="code-block" data-language="C++">
+                            <pre><code><span class="keyword">class</span> <span class="type">Solution</span> {
+<span class="keyword">public</span>:
+    <span class="type">vector</span>&lt;<span class="type">int</span>&gt; <span class="function">twoSum</span>(<span class="type">vector</span>&lt;<span class="type">int</span>&gt;& nums, <span class="type">int</span> target) {
+        <span class="type">unordered_map</span>&lt;<span class="type">int</span>, <span class="type">int</span>&gt; numMap;
+        
+        <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; nums.size(); i++) {
+            <span class="type">int</span> complement = target - nums[i];
+            
+            <span class="keyword">if</span> (numMap.find(complement) != numMap.end()) {
+                <span class="keyword">return</span> {numMap[complement], i};
+            }
+            
+            numMap[nums[i]] = i;
+        }
+        
+        <span class="keyword">return</span> {};
+    }
+};</code></pre>
+                        </div>
+                    </div>
+
+                    <!-- Java Code -->
+                    <div class="code-content" id="java">
+                        <div class="code-block" data-language="Java">
+                            <pre><code><span class="keyword">class</span> <span class="type">Solution</span> {
+    <span class="keyword">public</span> <span class="type">int</span>[] <span class="function">twoSum</span>(<span class="type">int</span>[] nums, <span class="type">int</span> target) {
+        <span class="type">Map</span>&lt;<span class="type">Integer</span>, <span class="type">Integer</span>&gt; numMap = <span class="keyword">new</span> <span class="type">HashMap</span>&lt;&gt;();
+        
+        <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; nums.length; i++) {
+            <span class="type">int</span> complement = target - nums[i];
+            
+            <span class="keyword">if</span> (numMap.containsKey(complement)) {
+                <span class="keyword">return</span> <span class="keyword">new</span> <span class="type">int</span>[] { numMap.get(complement), i };
+            }
+            
+            numMap.put(nums[i], i);
+        }
+        
+        <span class="keyword">return</span> <span class="keyword">new</span> <span class="type">int</span>[] {};
+    }
+}</code></pre>
+                        </div>
+                    </div>
+
+                    <!-- Python Code -->
+                    <div class="code-content" id="python">
+                        <div class="code-block" data-language="Python">
+                            <pre><code><span class="keyword">class</span> <span class="type">Solution</span>:
+    <span class="keyword">def</span> <span class="function">twoSum</span>(self, nums: <span class="type">List</span>[<span class="type">int</span>], target: <span class="type">int</span>) -&gt; <span class="type">List</span>[<span class="type">int</span>]:
+        num_map = {}
+        
+        <span class="keyword">for</span> i, num <span class="keyword">in</span> <span class="function">enumerate</span>(nums):
+            complement = target - num
+            
+            <span class="keyword">if</span> complement <span class="keyword">in</span> num_map:
+                <span class="keyword">return</span> [num_map[complement], i]
+            
+            num_map[num] = i
+        
+        <span class="keyword">return</span> []</code></pre>
+                        </div>
+                    </div>
+
+                    <!-- JavaScript Code -->
+                    <div class="code-content" id="javascript">
+                        <div class="code-block" data-language="JavaScript">
+                            <pre><code><span class="comment">/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */</span>
 </body>
 
 </html>
