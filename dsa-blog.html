@@ -574,6 +574,32 @@
             position: relative;
             overflow: hidden;
         }
+        .language-tab::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(52, 152, 219, 0.2), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .language-tab:hover::before {
+            left: 100%;
+        }
+
+        .language-tab:hover {
+            background: rgba(52, 152, 219, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .language-tab.active {
+            background: linear-gradient(135deg, #3498db, #9b59b6);
+            border-color: transparent;
+            color: #fff;
+            box-shadow: 0 5px 15px rgba(52, 152, 219, 0.4);
+        }
     </style>
 </head>
 <body>
