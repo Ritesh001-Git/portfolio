@@ -1446,6 +1446,104 @@ Output: [0,1]
 
         </div>
     </footer>
+    <script>
+        // Create floating particles
+        function createParticles() {
+            const particlesContainer = document.getElementById('particles');
+            const particleCount = 15;
+            
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.width = Math.random() * 5 + 2 + 'px';
+                particle.style.height = particle.style.width;
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.top = Math.random() * 100 + '%';
+                particle.style.animationDuration = Math.random() * 10 + 15 + 's';
+                particle.style.animationDelay = Math.random() * 5 + 's';
+                particlesContainer.appendChild(particle);
+            }
+        }
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', function () {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Responsive navigation
+        document.addEventListener('DOMContentLoaded', () => {
+            createParticles();
+            
+            const hamburgerMenu = document.getElementById('hamburgerMenu');
+            const navLinks = document.getElementById('navLinks');
+            const body = document.body;
+
+            hamburgerMenu.addEventListener('click', (e) => {
+                e.stopPropagation();
+                hamburgerMenu.classList.toggle('active');
+                navLinks.classList.toggle('open');
+            });
+
+            body.addEventListener('click', () => {
+                if (navLinks.classList.contains('open')) {
+                    hamburgerMenu.classList.remove('active');
+                    navLinks.classList.remove('open');
+                }
+            });
+
+            navLinks.addEventListener('click', (e) => {
+                e.stopPropagation();
+            });
+        });
+
+        // Toggle category dropdown
+        function toggleCategory(categoryId) {
+            const content = document.getElementById(categoryId + '-content');
+            const toggle = document.getElementById(categoryId + '-toggle');
+            
+            content.classList.toggle('active');
+            toggle.classList.toggle('active');
+        }
+
+        // Modal functions
+        function openModal(modalId) {
+            document.getElementById(modalId).classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal(modalId) {
+            document.getElementById(modalId).classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            if (event.target.classList.contains('modal')) {
+                event.target.classList.remove('active');
+                document.body.style.overflow = 'auto';
+            }
+        }
+
+        // Language tab switching
+        function switchLanguage(language) {
+            // Remove active class from all tabs and contents
+            document.querySelectorAll('.language-tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            document.querySelectorAll('.code-content').forEach(content => {
+                content.classList.remove('active');
+            });
+            
+            // Add active class to selected tab and content
+            event.target.closest('.language-tab').classList.add('active');
+            document.getElementById(language).classList.add('active');
+        }
+    </script>
 </body>
 
 </html>
