@@ -406,6 +406,33 @@
             background: linear-gradient(90deg, transparent, rgba(52, 152, 219, 0.1), transparent);
             transition: left 0.5s ease;
         }
+        .question-item:hover::before {
+            left: 100%;
+        }
+
+        .question-item:hover {
+            background: rgba(52, 152, 219, 0.1);
+            border-color: rgba(52, 152, 219, 0.3);
+            transform: translateX(5px);
+        }
+
+        .question-title {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            flex: 1;
+        }
+
+        .question-number {
+            font-weight: 600;
+            color: #3498db;
+            min-width: 30px;
+        }
+
+        .question-name {
+            font-size: 1rem;
+            color: #ecf0f1;
+        }
     </style>
 </head>
 <body>
