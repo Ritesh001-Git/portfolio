@@ -68,6 +68,12 @@
             border-radius: 50%;
             animation: float 20s infinite;
         }
+        @keyframes float {
+            0%, 100% { transform: translateY(0) translateX(0); }
+            25% { transform: translateY(-100px) translateX(50px); }
+            50% { transform: translateY(-50px) translateX(-50px); }
+            75% { transform: translateY(-150px) translateX(100px); }
+        }
     </style>
 </head>
 <body>
