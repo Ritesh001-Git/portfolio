@@ -35,6 +35,18 @@
             background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #222831 100%);
             z-index: -2;
         }
+        .gradient-bg::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.1), transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.1), transparent 50%);
+            z-index: -1;
+            animation: gradientShift 15s ease infinite;
+        }
     </style>
 </head>
 <body>
