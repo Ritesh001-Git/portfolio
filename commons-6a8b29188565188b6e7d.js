@@ -1970,7 +1970,7 @@
                     href: "dsa-blog.html",
                     target: "_blank",
                     rel: "noreferrer"
-                }, "DSA Blog")), n.createElement("li", {
+                }, "DSA")), n.createElement("li", {
                     className: "nav-item"
                 }, n.createElement(o.N_, {
                     className: "nav-link",
