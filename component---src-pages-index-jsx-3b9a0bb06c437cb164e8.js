@@ -10313,5 +10313,31 @@
     }
 ]);
 
+(function () {
+    const style = document.createElement("style");
+    style.innerHTML = `
+      @media (max-width: 767px) {
+        html, body {
+          overflow-x: hidden !important;
+          
+        }
+  
+        
+  
+        /* This ensures no element pushes layout horizontally */
+        * {
+          box-sizing: border-box !important;
+        }
+  
+        /* If any element has transform causing overflow */
+        [style*="translate"], [style*="scale"], [style*="transform"] {
+          max-width: 100% !important;
+        }
+      }
+    `;
+    document.head.appendChild(style);
+  })();
+  
+
 
   
