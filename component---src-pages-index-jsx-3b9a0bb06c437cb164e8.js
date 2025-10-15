@@ -10327,6 +10327,9 @@
         max-width: 100% !important;
         word-break: break-word;
         overflow-wrap: break-word;
+        white-space: normal !important;
+        padding-right: 15px !important;
+        text-align: left !important;
 
       }
         
