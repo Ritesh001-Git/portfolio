@@ -10332,6 +10332,8 @@
         /* This ensures no element pushes layout horizontally */
         * {
           box-sizing: border-box !important;
+                  overflow-wrap: break-word;
+
         }
   
         /* If any element has transform causing overflow */
