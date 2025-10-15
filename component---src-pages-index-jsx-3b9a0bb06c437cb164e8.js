@@ -6442,7 +6442,7 @@
                     textAlign: "left",
                     lineHeight: "1.5"
                 }
-            }, "Cloud, AI, Flutter, and DSA enthusiast from India. I translate complex problems into elegant, scalable software and continuously upskill to stay ahead of tech trends. ", i.createElement("br", null), "Passionate about performance, maintainability, and user centric design.")), i.createElement("div", {
+            }, "Cloud, AI, DevOps, and DSA enthusiast from India. I transform complex problems into elegant, scalable software solutions while continuously upskilling to stay ahead of the latest technology trends.", i.createElement("br", null), "Driven to build efficient, reliable, and scalable solutions that make a real impact.")), i.createElement("div", {
                 className: "ftbox mt-30"
             }, i.createElement("ul", null, Ge.qT.map((e => i.createElement("li", {
                 key: e.id,
