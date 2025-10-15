@@ -10319,7 +10319,7 @@
       @media (max-width: 767px) {
         html, body {
           overflow-x: hidden !important;
-          
+          width: 100% !important;
         }
   
         
