@@ -10350,3 +10350,41 @@
         document.head.appendChild(style);
     }
 })();
+
+// --- Global Mobile Spacing Fix ---
+(function () {
+    const style = document.createElement("style");
+    style.innerHTML = `
+      @media (max-width: 767px) {
+
+        /* Reduce vertical spacing site-wide */
+        section, div, p, h1, h2, h3, h4, h5, h6, ul, ol, li {
+          margin-top: 10px !important;
+          margin-bottom: 10px !important;
+          padding-top: 0 !important;
+          padding-bottom: 0 !important;
+        }
+
+        /* Reduce spacing for commonly used classes */
+        .mt-30, .mt-40, .mt-50, .mb-30, .mb-40, .mb-50, .sm-mb30, .md-mb50 {
+          margin-top: 10px !important;
+          margin-bottom: 10px !important;
+        }
+
+        /* Reduce excessive spacing caused by empty Bootstrap columns */
+        .row > .col-md-6:empty,
+        .row > .col-md-5:empty,
+        .row > .col-md-7:empty {
+          display: none !important;
+        }
+
+        /* Optional: adjust line height for tighter content on mobile */
+        p, h1, h2, h3, h4, h5, h6 {
+          line-height: 1.4 !important;
+        }
+      }
+    `;
+    document.head.appendChild(style);
+})();
+
+
