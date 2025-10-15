@@ -10326,6 +10326,7 @@
       .txt {
         max-width: 100% !important;
         word-break: break-word;
+        overflow-wrap: break-word;
 
       }
         
