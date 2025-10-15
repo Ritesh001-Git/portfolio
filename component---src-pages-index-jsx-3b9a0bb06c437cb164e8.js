@@ -10321,7 +10321,11 @@
           overflow-x: hidden !important;
           width: 100% !important;
         }
-  
+        .words,
+      .splitting,
+      .txt {
+        
+      }
         
   
         /* This ensures no element pushes layout horizontally */
