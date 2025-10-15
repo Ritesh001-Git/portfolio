@@ -6442,7 +6442,7 @@
                     textAlign: "left",
                     lineHeight: "1.5"
                 }
-            }, "Cloud, AI, Flutter, and DSA enthusiast from India.I translate complex problems into elegant, scalable software and continuously upskill to stay ahead of tech trends. ", i.createElement("br", null), "Passionate about performance, maintainability, and user centric design.")), i.createElement("div", {
+            }, "Cloud, AI, Flutter, and DSA enthusiast from India. I translate complex problems into elegant, scalable software and continuously upskill to stay ahead of tech trends. ", i.createElement("br", null), "Passionate about performance, maintainability, and user centric design.")), i.createElement("div", {
                 className: "ftbox mt-30"
             }, i.createElement("ul", null, Ge.qT.map((e => i.createElement("li", {
                 key: e.id,
@@ -10329,6 +10329,7 @@
         overflow-wrap: break-word;
         white-space: normal !important;
         padding-right: 20px !important;
+        margin-right: 2px !important;
         text-align: left !important;
 
       }
