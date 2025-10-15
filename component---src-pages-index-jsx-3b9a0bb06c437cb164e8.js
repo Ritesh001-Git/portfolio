@@ -10324,7 +10324,8 @@
         .words,
       .splitting,
       .txt {
-        
+        max-width: 100% !important;
+
       }
         
   
