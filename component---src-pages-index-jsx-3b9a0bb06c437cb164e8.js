@@ -6302,17 +6302,17 @@
                     "data-splitting": !0
                 }, e.title))))))))))))
             },
-            Fe = JSON.parse('[{"id":1,"icon":"/images/lpu-logo.png","title":"Bachelor of Technology - CSE","content":"Lovely Professional University, Phagwara, Punjab, India — Since Aug 2023 | CGPA: 8.5"},{"id":2,"icon":"/images/kv-logo.png","title":"Higher Secondary - PCM","content":"Kendriya Vidyalaya Pushp Vihar, New Delhi, India — Apr 2022 - Mar 2023 | Percentage: 86.7%"},{"id":3,"icon":"/images/kv-logo.png","title":"Matriculation","content":"Kendriya Vidyalaya Pushp Vihar, New Delhi, India — Apr 2020 - Mar 2021 | Percentage: 90.8%"}]');
+                Fe = JSON.parse('[{"id":1,"icon":"/images/lpu-logo.png","title":"Bachelor of Technology - CSE","content":"Lovely Professional University, Phagwara, Punjab, India — Since Aug 2023 | CGPA: 8.5"},{"id":2,"icon":"/images/kv-logo.png","title":"Higher Secondary - PCM","content":"Kendriya Vidyalaya Pushp Vihar, New Delhi, India — Apr 2022 - Mar 2023 | Percentage: 86.7%"},{"id":3,"icon":"/images/kv-logo.png","title":"Matriculation","content":"Kendriya Vidyalaya Pushp Vihar, New Delhi, India — Apr 2020 - Mar 2021 | Percentage: 90.8%"}]');
 
             // Only update title and content — keep HTML image intact
             Fe.forEach((edu, index) => {
-                const titleEl = document.getElementById(`edu-title-${index+1}`);
-                const descEl = document.getElementById(`edu-desc-${index+1}`);
-            
+                const titleEl = document.getElementById(`edu-title-${index + 1}`);
+                const descEl = document.getElementById(`edu-desc-${index + 1}`);
+
                 if (titleEl) titleEl.textContent = edu.title;
                 if (descEl) descEl.textContent = edu.content;
             });
-            
+
             var Be = e => {
                 let {
                     serviceMB50: t
@@ -6354,28 +6354,28 @@
                 sP: "/images/intro/triet-800x708.jpg",
                 lb: "/images/intro/13131216_1137773816253930_7102194663945036401_o.jpg",
                 qT: [
-                  {
-                    id: 1,
-                    icon: "fas fa-cloud",          // ☁️ Cloud icon
-                    name: { first: "Innovative", second: "Solutions" },
-                    wowDelay: ".3s"
-                  },
-                  {
-                    id: 2,
-                    icon: "fas fa-upload",         // ⬆️ Upload icon
-                    name: { first: "High", second: "Throughput" },
-                    wowDelay: ".5s"
-                  },
-                  {
-                    id: 3,
-                    icon: "fas fa-download",       // ⬇️ Download icon
-                    name: { first: "Ongoing", second: "Upskilling" },
-                    wowDelay: ".8s"
-                  }
+                    {
+                        id: 1,
+                        icon: "fas fa-cloud",          // ☁️ Cloud icon
+                        name: { first: "Innovative", second: "Solutions" },
+                        wowDelay: ".3s"
+                    },
+                    {
+                        id: 2,
+                        icon: "fas fa-upload",         // ⬆️ Upload icon
+                        name: { first: "High", second: "Throughput" },
+                        wowDelay: ".5s"
+                    },
+                    {
+                        id: 3,
+                        icon: "fas fa-download",       // ⬇️ Download icon
+                        name: { first: "Ongoing", second: "Upskilling" },
+                        wowDelay: ".8s"
+                    }
                 ]
-              };
-              
-                                      var He = () => i.createElement("div", {
+            };
+
+            var He = () => i.createElement("div", {
                 className: "about section-padding"
             }, i.createElement("div", {
                 className: "container"
@@ -6426,9 +6426,22 @@
             }, i.createElement("h6", null, "About me")), i.createElement(ze, null, i.createElement("h3", {
                 className: "words chars splitting main-title wow",
                 "data-splitting": !0
-            }, "Ritesh Kumar Swain")), i.createElement(ze, null, i.createElement("p", {
+            }, "Ritesh Kumar Swain")), i.createElement(ze, null, i.createElement("div", {
+                style: {
+                    maxWidth: "100%",
+                    overflow: "hidden",
+                    paddingRight: "15px",
+                    boxSizing: "border-box"
+                }
+            }), i.createElement("p", {
                 className: "words chars splitting wow txt",
-                "data-splitting": !0
+                "data-splitting": !0,
+                style: {
+                    wordWrap: "break-word",
+                    whiteSpace: "normal",
+                    textAlign: "left",
+                    lineHeight: "1.5"
+                }
             }, "Cloud, AI, Flutter, and DSA enthusiast from India. I translate complex problems into elegant, scalable software and continuously upskill to stay ahead of tech trends. ", i.createElement("br", null), "Passionate about performance, maintainability, and user centric design.")), i.createElement("div", {
                 className: "ftbox mt-30"
             }, i.createElement("ul", null, Ge.qT.map((e => i.createElement("li", {
@@ -10299,3 +10312,6 @@
         }
     }
 ]);
+
+
+  
