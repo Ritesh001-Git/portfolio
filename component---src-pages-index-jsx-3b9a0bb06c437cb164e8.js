@@ -10313,44 +10313,40 @@
     }
 ]);
 
+// --- Scoped Mobile Fix for About Me ---
+// --- Scoped Mobile Fix for About Me ---
 (function () {
-    const style = document.createElement("style");
-    style.innerHTML = `
-      @media (max-width: 767px) {
-        html, body {
-          overflow-x: hidden !important;
-          width: 100% !important;
-        }
-        .words,
-      .splitting,
-      .txt {
-        max-width: 100% !important;
-        word-break: break-word;
-        overflow-wrap: break-word;
-        white-space: normal !important;
-        padding-right: 20px !important;
-        margin-right: 2px !important;
-        text-align: left !important;
+    // Select only the About Me section(s)
+    const aboutSections = document.querySelectorAll('.about.section-padding');
 
-      }
-        
-  
-        /* This ensures no element pushes layout horizontally */
-        * {
-          box-sizing: border-box !important;
-                  overflow-wrap: break-word;
+    if (aboutSections.length) {
+        const style = document.createElement('style');
+        style.innerHTML = `
+          @media (max-width: 767px) {
+            /* Target only elements inside About Me */
+            .about.section-padding .words,
+            .about.section-padding .chars,
+            .about.section-padding .splitting,
+            .about.section-padding .txt {
+              max-width: 100% !important;
+              overflow-wrap: break-word;
+              word-break: break-word;
+              white-space: normal !important;
+              padding-right: 15px !important;
+              text-align: left !important;
+            }
 
-        }
-  
-        /* If any element has transform causing overflow */
-        [style*="translate"], [style*="scale"], [style*="transform"] {
-          max-width: 100% !important;
-        }
-      }
-    `;
-    document.head.appendChild(style);
+            .about.section-padding * {
+              box-sizing: border-box !important;
+            }
+
+            .about.section-padding [style*="translate"],
+            .about.section-padding [style*="scale"],
+            .about.section-padding [style*="transform"] {
+              max-width: 100% !important;
+            }
+          }
+        `;
+        document.head.appendChild(style);
+    }
 })();
-
-
-
-
