@@ -7069,7 +7069,7 @@
                 }, "CV ?"), ".")))), i.createElement("div", {
                     className: "col-md-4 col-lg-3 valign"
                 }, i.createElement("a", {
-                    href: "https://drive.google.com/file/d/15pLuvLCq3M-Mi6zDZS26vbCgPApMRKhm/view?usp=sharing",
+                    href: "https://drive.google.com/file/d/13OCgHu_rha_leSDVcnxmLkqBI8pEHeAB/view?usp=drive_link",
                     target: "_blank",
                     rel: "noopener noreferrer",
                     className: "butn bord curve wow fadeInUp",
