@@ -6974,9 +6974,9 @@
                 }), i.createElement("div", {
                     className: "item"
                 }, i.createElement("div", null,
-                    i.createElement("strong", { className: "bold-heading" }, "Programming Languages & Frameworks"),
-                    i.createElement("p", { className: "bold-heading" }), "Languages: C, C++, Java, Python, Dart, JavaScript",
-                    i.createElement("br", { className: "bold-heading" }), "Frameworks: Spring Boot, Flutter, HTML, CSS"), i.createElement("div", {
+                    i.createElement("strong", { className: "bold-heading" }, "Programming Languages"),
+                    i.createElement("p", { className: "bold-heading" }), "Languages: C++, Java, Python, Shell",
+                    i.createElement("br", { className: "bold-heading" }), "Operating Systems: Linux(Ubuntu), macOS"), i.createElement("div", {
                         className: "info"
                     }, i.createElement("div", {
                         className: "img"
