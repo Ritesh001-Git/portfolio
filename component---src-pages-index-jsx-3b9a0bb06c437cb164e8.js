@@ -6974,7 +6974,7 @@
                 }), i.createElement("div", {
                     className: "item"
                 }, i.createElement("div", null,
-                    i.createElement("strong", { className: "bold-heading" }, "Programming Languages"),
+                    i.createElement("strong", { className: "bold-heading" }, "Programming Languages & OS"),
                     i.createElement("p", { className: "bold-heading" }), "Languages: C++, Java, Python, Shell",
                     i.createElement("br", { className: "bold-heading" }), "Operating Systems: Linux(Ubuntu), macOS"), i.createElement("div", {
                         className: "info"
