@@ -6995,11 +6995,11 @@
                         className: "author-details"
                     }, ""))))), i.createElement("div", {
                         className: "item"
-                    }, i.createElement("strong", { className: "bold-heading" }, "Tools, Cloud & Database"),
+                    }, i.createElement("strong", { className: "bold-heading" }, "Cloud & DevOps Tools"),
                         i.createElement("p", null),
-                        "Cloud / Tools: AWS, Git, GitHub, VS Code, Azure, Android Studio, X-Code",
+                        "Cloud / Tools: AWS (EC2, S3, CloudWatch, CloudFormation), Git, GitHub, VS Code, Azure, Docker, K8S, Jira, Terraform",
                         i.createElement("br", null),
-                        "Database: MySQL", i.createElement("div", {
+                        "Database: MySQL, PosrgreSQL, DynamoDB, MongoDB", i.createElement("div", {
                             className: "info"
                         }, i.createElement("div", {
                             className: "img"
