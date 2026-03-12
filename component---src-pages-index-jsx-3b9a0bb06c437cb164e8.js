@@ -6511,10 +6511,10 @@
             }, i.createElement(ze, null, i.createElement("h4", {
                 className: "wow words chars splitting",
                 "data-splitting": !0
-            }, "#FunFactAboutMe")), i.createElement(ze, null, i.createElement("p", null, "Code Polyglot – I’ve built projects in C++, Python, Java, Dart,  sand JavaScript (and counting…)."), i.createElement("p", null, " Explorer – My first trip was to Ladakh with my two best friends, where I hiked through mountain trails and visited remote monasteries.", i.createElement("br", null)), i.createElement("p", {
+            }, "Achievements")), i.createElement(ze, null, i.createElement("p", null, "Problem Solver – Solved 600+ DSA problems across platforms like LeetCode and GeeksforGeeks, achieving a LeetCode contest rating of 1524."), i.createElement("p", null, " Continuous Learner – Completed competitive coding and DevOps training, covering advanced DSA topics like DP, Graphs, Trie, Segment Trees, along with CI/CD and monitoring concepts.", i.createElement("br", null)), i.createElement("p", {
                 className: "wow txt words chars splitting",
                 "data-splitting": !0
-            }, "Lifelong Learner – Currently diving deep into Cloud Compuating and AI.")), i.createElement(o.N_, {
+            }, "Certifications – Earned certifications including AWS Cloud Quest Cloud Practitioner Trained, Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate, and NPTEL Natural Language Processing.")), i.createElement(o.N_, {
                 to: "contact.html",
                 className: "butn bord curve mt-40 wow fadeInUp",
                 "data-wow-delay": ".8s"
