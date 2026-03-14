@@ -6515,10 +6515,10 @@
                 className: "wow txt words chars splitting",
                 "data-splitting": !0
             }, "Certifications – Earned certifications including AWS Cloud Quest Cloud Practitioner Trained, Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate, and NPTEL Natural Language Processing.")), i.createElement(o.N_, {
-                to: "contact.html",
+                to: "https://codolio.com/profile/riteshswain",
                 className: "butn bord curve mt-40 wow fadeInUp",
                 "data-wow-delay": ".8s"
-            }, i.createElement("span", null, "Get in touch")), i.createElement("br", null))))), i.createElement("div", {
+            }, i.createElement("span", null, "Coding Portfolio")), i.createElement("br", null))))), i.createElement("div", {
                 className: "line bottom left"
             })));
             le.use([function (e) {
