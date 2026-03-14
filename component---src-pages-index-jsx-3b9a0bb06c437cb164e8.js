@@ -6302,7 +6302,7 @@
                     "data-splitting": !0
                 }, e.title))))))))))))
             },
-                Fe = JSON.parse('[{"id":1,"icon":"/images/lpu-logo.png","title":"Bachelor of Technology - CSE","content":"Lovely Professional University, Phagwara, Punjab, India — Since Aug 2023 | CGPA: 8.5"},{"id":2,"icon":"/images/kv-logo.png","title":"Higher Secondary - PCM","content":"Kendriya Vidyalaya Pushp Vihar, New Delhi, India — Apr 2022 - Mar 2023 | Percentage: 86.7%"},{"id":3,"icon":"/images/kv-logo.png","title":"Matriculation","content":"Kendriya Vidyalaya Pushp Vihar, New Delhi, India — Apr 2020 - Mar 2021 | Percentage: 90.8%"}]');
+                Fe = JSON.parse('[{"id":1,"icon":"/images/lpu-logo.png","title":"Bachelor of Technology - CSE","content":"Lovely Professional University, Phagwara, Punjab, India — Since Aug 2023 | CGPA: 8.0"},{"id":2,"icon":"/images/kv-logo.png","title":"Higher Secondary - PCM","content":"Kendriya Vidyalaya Pushp Vihar, New Delhi, India — Apr 2022 - Mar 2023 | Percentage: 86.7%"},{"id":3,"icon":"/images/kv-logo.png","title":"Matriculation","content":"Kendriya Vidyalaya Pushp Vihar, New Delhi, India — Apr 2020 - Mar 2021 | Percentage: 90.8%"}]');
 
             // Only update title and content — keep HTML image intact
             Fe.forEach((edu, index) => {
