@@ -6302,7 +6302,7 @@
                     "data-splitting": !0
                 }, e.title))))))))))))
             },
-                Fe = JSON.parse('[{"id":1,"icon":"/images/lpu-logo.png","title":"Bachelor of Technology - CSE","content":"Lovely Professional University, Phagwara, Punjab, India — Since Aug 2023 | CGPA: 8.0"},{"id":2,"icon":"/images/kv-logo.png","title":"Higher Secondary - PCM","content":"Kendriya Vidyalaya Pushp Vihar, New Delhi, India — Apr 2022 - Mar 2023 | Percentage: 86.7%"},{"id":3,"icon":"/images/kv-logo.png","title":"Matriculation","content":"Kendriya Vidyalaya Pushp Vihar, New Delhi, India — Apr 2020 - Mar 2021 | Percentage: 90.8%"}]');
+                Fe = JSON.parse('[{"id":1,"icon":"/images/lpu-logo.png","title":"Bachelor of Technology - CSE","content":"Lovely Professional University, Phagwara, Punjab, India — Aug 2023 - Present | CGPA: 8.0"},{"id":2,"icon":"/images/kv-logo.png","title":"Higher Secondary - PCM","content":"Kendriya Vidyalaya Pushp Vihar, New Delhi, India — Apr 2022 - Mar 2023 | Percentage: 86.7%"},{"id":3,"icon":"/images/kv-logo.png","title":"Matriculation","content":"Kendriya Vidyalaya Pushp Vihar, New Delhi, India — Apr 2020 - Mar 2021 | Percentage: 90.8%"}]');
 
             // Only update title and content — keep HTML image intact
             Fe.forEach((edu, index) => {
@@ -6356,19 +6356,19 @@
                 qT: [
                     {
                         id: 1,
-                        icon: "fas fa-cloud",          // ☁️ Cloud icon
+                        icon: "fa-solid fa-cloud",          // ☁️ Cloud icon
                         name: { first: "Innovative", second: "Solutions" },
                         wowDelay: ".3s"
                     },
                     {
                         id: 2,
-                        icon: "fas fa-upload",         // ⬆️ Upload icon
+                        icon: "fa-solid fa-microchip",         // ⬆️ Upload icon
                         name: { first: "High", second: "Throughput" },
                         wowDelay: ".5s"
                     },
                     {
                         id: 3,
-                        icon: "fas fa-download",       // ⬇️ Download icon
+                        icon: "fa-solid fa-graduation-cap",       // ⬇️ Download icon
                         name: { first: "Ongoing", second: "Upskilling" },
                         wowDelay: ".8s"
                     }
@@ -6442,7 +6442,7 @@
                     textAlign: "left",
                     lineHeight: "1.5"
                 }
-            }, "Cloud, AI, DevOps, and DSA enthusiast from India. I transform complex problems into elegant, scalable software solutions while continuously upskilling to stay ahead of the latest technology trends.", i.createElement("br", null), "Driven to build efficient, reliable, and scalable solutions that make a real impact.")), i.createElement("div", {
+            }, "Cloud, DevOps, and DSA enthusiast from India. I transform complex problems into elegant, scalable software solutions while continuously upskilling to stay ahead of the latest technology trends.", i.createElement("br", null), "Driven to build efficient, reliable, and scalable solutions that make a real impact.")), i.createElement("div", {
                 className: "ftbox mt-30"
             }, i.createElement("ul", null, Ge.qT.map((e => i.createElement("li", {
                 key: e.id,
@@ -6722,7 +6722,7 @@
                     alt: "De Muze"
                 }))), i.createElement("div", {
                     className: "cont"
-                }, i.createElement("h6", null, "Web Application"), i.createElement("h4", null, "Portfolio")))), i.createElement(Oe, {
+                }, i.createElement("h6", null, "Web Application"), i.createElement("h4", null, "Mini PaaS Auto-Containerize Platform")))), i.createElement(Oe, {
                     className: "swiper-slide"
                 }, i.createElement("div", {
                     className: "content"
@@ -6770,7 +6770,7 @@
                     alt: "Plus Messege Portal"
                 }))), i.createElement("div", {
                     className: "cont"
-                }, i.createElement("h6", null, "Web Application"), i.createElement("h4", null, "Movie Booking")))), i.createElement(Oe, {
+                }, i.createElement("h6", null, "Web Application"), i.createElement("h4", null, "AI Content Detector & Plagiarism Checker")))), i.createElement(Oe, {
                     className: "swiper-slide"
                 }, i.createElement("div", {
                     className: "content"
@@ -6999,7 +6999,7 @@
                         i.createElement("p", null),
                         "Cloud / Tools: AWS (EC2, S3, CloudWatch, CloudFormation), Git, GitHub, VS Code, Azure, Docker, K8S, Jira, Terraform",
                         i.createElement("br", null),
-                        "Database: MySQL, PosrgreSQL, DynamoDB, MongoDB", i.createElement("div", {
+                        "Database: MySQL, PosrgreSQL, DynamoDB", i.createElement("div", {
                             className: "info"
                         }, i.createElement("div", {
                             className: "img"
@@ -7022,7 +7022,7 @@
                             i.createElement("p", null),
                             "Soft Skills: Problem-Solving, Communication, Project Management, Adaptability",
                             i.createElement("br", { style: { lineHeight: "1.8" } }),
-                            "Strengths: Fast Learner, Collaborative Team Player, Attention to Detail, Creativity in Problem-Solving", i.createElement("div", {
+                            "Strengths: Quick Learner, Collaborative Team Player, Attention to Detail", i.createElement("div", {
                                 className: "info"
                             }, i.createElement("div", {
                                 className: "img"
@@ -7069,7 +7069,7 @@
                 }, "CV ?"), ".")))), i.createElement("div", {
                     className: "col-md-4 col-lg-3 valign"
                 }, i.createElement("a", {
-                    href: "https://drive.google.com/file/d/13OCgHu_rha_leSDVcnxmLkqBI8pEHeAB/view?usp=drive_link",
+                    href: "https://drive.google.com/file/d/1kp_hyogBZJgO_WfLjVCpln3cOPvmi1fM/view?usp=sharing",
                     target: "_blank",
                     rel: "noopener noreferrer",
                     className: "butn bord curve wow fadeInUp",
