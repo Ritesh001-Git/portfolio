@@ -6905,7 +6905,7 @@
                     "data-wow-delay": ".5s"
                 }, "Click"), i.createElement("h3", {
                     className: "wow mb-20 color-font"
-                }, "Deploy"), i.createElement("p", null, "And hope for the best."))), i.createElement("div", {
+                }, "Deploy"), i.createElement("p", null, "And ship with confidence."))), i.createElement("div", {
                     className: "col-lg-8"
                 }, i.createElement(qe.Es, r, n)))))
             },
