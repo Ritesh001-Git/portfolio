@@ -6767,7 +6767,7 @@
                     "data-delay": "500"
                 }), i.createElement("img", {
                     src: "/images/portfolio/movie.webp",
-                    alt: "Plus Messege Portal"
+                    alt: "Plus Message Portal"
                 }))), i.createElement("div", {
                     className: "cont"
                 }, i.createElement("h6", null, "Web Application"), i.createElement("h4", null, "AI Content Detector & Plagiarism Checker")))), i.createElement(Oe, {
