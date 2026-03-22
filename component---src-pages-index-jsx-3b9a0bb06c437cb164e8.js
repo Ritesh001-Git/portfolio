@@ -6350,9 +6350,9 @@
                 }))
             }
             const Ge = {
-                zx: "/images/intro/12976804_1121024851262160_4036613030479327751_o.jpg",
-                sP: "/images/intro/triet-800x708.jpg",
-                lb: "/images/intro/13131216_1137773816253930_7102194663945036401_o.jpg",
+                zx: "/images/intro/12976804_1121024851262160_4036613030479327751_o.webp",
+                sP: "/images/intro/triet-800x708.webp",
+                lb: "/images/intro/13131216_1137773816253930_7102194663945036401_o.webp",
                 qT: [
                     {
                         id: 1,
