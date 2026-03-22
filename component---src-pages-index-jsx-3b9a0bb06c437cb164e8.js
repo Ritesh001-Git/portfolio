@@ -6718,7 +6718,7 @@
                     className: "wow cimgio",
                     "data-delay": "500"
                 }), i.createElement("img", {
-                    src: "/images/portfolio/portfolio.png",
+                    src: "/images/portfolio/portfolio.webp",
                     alt: "De Muze"
                 }))), i.createElement("div", {
                     className: "cont"
@@ -6734,7 +6734,7 @@
                     className: "wow cimgio",
                     "data-delay": "500"
                 }), i.createElement("img", {
-                    src: "/images/portfolio/image.png",
+                    src: "/images/portfolio/image.webp",
                     alt: "Bibliomundi"
                 }))), i.createElement("div", {
                     className: "cont"
@@ -6750,7 +6750,7 @@
                     className: "wow cimgio",
                     "data-delay": "500"
                 }), i.createElement("img", {
-                    src: "/images/portfolio/sleepbot.png",
+                    src: "/images/portfolio/sleepbot.webp",
                     alt: "MyParcel"
                 }))), i.createElement("div", {
                     className: "cont"
@@ -6766,7 +6766,7 @@
                     className: "wow cimgio",
                     "data-delay": "500"
                 }), i.createElement("img", {
-                    src: "/images/portfolio/movie.png",
+                    src: "/images/portfolio/movie.webp",
                     alt: "Plus Messege Portal"
                 }))), i.createElement("div", {
                     className: "cont"
@@ -6782,7 +6782,7 @@
                     className: "wow cimgio",
                     "data-delay": "500"
                 }), i.createElement("img", {
-                    src: "/images/portfolio/task.png",
+                    src: "/images/portfolio/task.webp",
                     alt: "AU Portal"
                 }))), i.createElement("div", {
                     className: "cont"
