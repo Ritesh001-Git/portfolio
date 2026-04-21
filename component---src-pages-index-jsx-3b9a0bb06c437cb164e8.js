@@ -6934,23 +6934,61 @@
                 }, "Watch Video"), i.createElement("div", {
                     className: "vid-icon"
                 }, "undefined" != typeof window && e && i.createElement("div", {
-                    className: "video-popup"
+                    style: {
+                        position: "fixed",
+                        top: 0,
+                        left: 0,
+                        width: "100%",
+                        height: "100%",
+                        backgroundColor: "rgba(0,0,0,0.85)",
+                        display: "flex",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        zIndex: 9999
+                    }
                 },
+
+                    // Video Container (IMPORTANT: position relative)
                     i.createElement("div", {
-                        className: "video-wrapper"
+                        style: {
+                            position: "relative",
+                            width: "80%",
+                            maxWidth: "900px",
+                            backgroundColor: "#000",
+                            borderRadius: "8px",
+                            overflow: "hidden",
+                            boxShadow: "0 0 20px rgba(0,0,0,0.5)"
+                        }
                     },
+
+                        // ❌ Close Button (INSIDE container)
+                        i.createElement("div", {
+                            onClick: () => t(false),
+                            style: {
+                                position: "absolute",
+                                top: "10px",
+                                right: "15px",
+                                fontSize: "28px",
+                                color: "#fff",
+                                cursor: "pointer",
+                                zIndex: 10,
+                                background: "rgba(0,0,0,0.6)",
+                                padding: "4px 10px",
+                                borderRadius: "50%"
+                            }
+                        }, "✕"),
+
+                        // Iframe Video
                         i.createElement("iframe", {
                             src: "https://drive.google.com/file/d/1ymrCCkBvASp5_LJ1GQKrHZLK6dUKys3W/preview",
-                            width: "300%",
-                            height: "700",
+                            width: "100%",
+                            height: "500",
                             allow: "autoplay",
-                            style: { border: "none" }
+                            style: {
+                                border: "none"
+                            }
                         })
-                    ),
-                    i.createElement("button", {
-                        onClick: () => t(!1),
-                        className: "close-btn"
-                    }, "Close")
+                    )
                 ), i.createElement("a", {
                     className: "vid",
                     onClick: e => {
