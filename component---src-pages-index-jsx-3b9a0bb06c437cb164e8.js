@@ -6933,12 +6933,25 @@
                     className: "text"
                 }, "Watch Video"), i.createElement("div", {
                     className: "vid-icon"
-                }, "undefined" != typeof window && i.createElement(Ye.A, {
-                    channel: "vimeo",
-                    isOpen: e,
-                    videoId: "",
-                    onClose: () => t(!1)
-                }), i.createElement("a", {
+                }, "undefined" != typeof window && e && i.createElement("div", {
+                    className: "video-popup"
+                },
+                    i.createElement("div", {
+                        className: "video-wrapper"
+                    },
+                        i.createElement("iframe", {
+                            src: "https://drive.google.com/file/d/1ymrCCkBvASp5_LJ1GQKrHZLK6dUKys3W/preview",
+                            width: "300%",
+                            height: "700",
+                            allow: "autoplay",
+                            style: { border: "none" }
+                        })
+                    ),
+                    i.createElement("button", {
+                        onClick: () => t(!1),
+                        className: "close-btn"
+                    }, "Close")
+                ), i.createElement("a", {
                     className: "vid",
                     onClick: e => {
                         e.preventDefault(), t(!0)
